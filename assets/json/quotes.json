@@ -1,7 +1,7 @@
 [
   {
-    "quotes-category": "Good Night",
-    "quotes-image": "assets/images/1.png",
+    "category": "Good Night",
+    "image": "assets/images/1.png",
     "quotes": [
       {
         "id": 1,
@@ -56,8 +56,8 @@
     ]
   },
   {
-    "quotes-category": "Love",
-    "quotes-image": "assets/images/2.png",
+    "category": "Love",
+    "image": "assets/images/2.png",
     "quotes": [
       {
         "id": 1,
@@ -112,8 +112,8 @@
     ]
   },
   {
-    "quotes-category": "valentine day",
-    "quotes-image": "assets/images/3.png",
+    "category": "valentine day",
+    "image": "assets/images/3.png",
     "quotes": [
       {
         "id": 1,
@@ -168,8 +168,8 @@
     ]
   },
   {
-    "quotes-category": "thank you",
-    "quotes-image": "assets/images/4.png",
+    "category": "thank you",
+    "image": "assets/images/4.png",
     "quotes": [
       {
         "id": 1,
@@ -224,8 +224,8 @@
     ]
   },
   {
-    "quotes-category": "social",
-    "quotes-image": "assets/images/5.png",
+    "category": "social",
+    "image": "assets/images/5.png",
     "quotes": [
       {
         "id": 1,
@@ -280,8 +280,8 @@
     ]
   },
   {
-    "quotes-category": "philosophy",
-    "quotes-image": "assets/images/6.png",
+    "category": "philosophy",
+    "image": "assets/images/6.png",
     "quotes":  [
       {
         "id": 1,
@@ -336,8 +336,8 @@
     ]
   },
   {
-    "quotes-category": "new year",
-    "quotes-image": "assets/images/7.png",
+    "category": "new year",
+    "image": "assets/images/7.png",
     "quotes": [
       {
         "id": 1,
@@ -392,8 +392,8 @@
     ]
   },
   {
-    "quotes-category": "Nature",
-    "quotes-image": "assets/images/8.png",
+    "category": "Nature",
+    "image": "assets/images/8.png",
     "quotes": [
       {
         "id": 1,
@@ -448,8 +448,8 @@
     ]
   },
   {
-    "quotes-category": "Meditation",
-    "quotes-image": "assets/images/9.png",
+    "category": "Meditation",
+    "image": "assets/images/9.png",
     "quotes": [
       {
         "id": 1,
@@ -504,8 +504,8 @@
     ]
   },
   {
-    "quotes-category": "Jealousy",
-    "quotes-image": "assets/images/10.png",
+    "category": "Jealousy",
+    "image": "assets/images/10.png",
     "quotes": [
       {
         "id": 1,
@@ -560,8 +560,8 @@
     ]
   },
   {
-    "quotes-category": "God",
-    "quotes-image": "assets/images/11.png",
+    "category": "God",
+    "image": "assets/images/11.png",
     "quotes": [
       {
         "id": 1,
@@ -616,8 +616,8 @@
     ]
   },
   {
-    "quotes-category": "Funny",
-    "quotes-image": "assets/images/12.png",
+    "category": "Funny",
+    "image": "assets/images/12.png",
     "quotes": [
       {
         "id": 1,
@@ -672,8 +672,8 @@
     ]
   },
   {
-    "quotes-category": "Dream",
-    "quotes-image": "assets/images/13.png",
+    "category": "Dream",
+    "image": "assets/images/13.png",
     "quotes": [
       {
         "id": 1,
@@ -728,8 +728,8 @@
     ]
   },
   {
-    "quotes-category": "Christmas",
-    "quotes-image": "assets/images/14.png",
+    "category": "Christmas",
+    "image": "assets/images/14.png",
     "quotes": [
 
       {
@@ -785,8 +785,8 @@
     ]
   },
   {
-    "quotes-category": "Art",
-    "quotes-image": "assets/images/15.png",
+    "category": "Art",
+    "image": "assets/images/15.png",
     "quotes": [
       {
         "id": 1,
@@ -841,8 +841,8 @@
     ]
   },
   {
-    "quotes-category": "Friendship",
-    "quotes-image": "assets/images/16.png",
+    "category": "Friendship",
+    "image": "assets/images/16.png",
     "quotes": [
       {
         "id": 1,
@@ -897,8 +897,8 @@
     ]
   },
   {
-    "quotes-category": "Success",
-    "quotes-image": "assets/images/17.png",
+    "category": "Success",
+    "image": "assets/images/17.png",
     "quotes": [
       {
         "id": 1,
@@ -953,8 +953,8 @@
     ]
   },
   {
-    "quotes-category": "insprirational",
-    "quotes-image": "assets/images/18.png",
+    "category": "insprirational",
+    "image": "assets/images/18.png",
     "quotes": [
       {
         "id": 1,

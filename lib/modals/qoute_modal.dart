@@ -10,8 +10,8 @@ class QuoteModel {
     List<Quote> quotes = quoteList.map((quote) => Quote.fromJson(quote)).toList();
 
     return QuoteModel(
-      json['quotes-category'],
-      json['quotes-image'],
+      json['category'],
+      json['image'],
       quotes,
     );
   }

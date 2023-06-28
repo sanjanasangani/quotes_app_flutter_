@@ -40,9 +40,6 @@ class _Edit_pageState extends State<Edit_page> {
 
   int currentImageIndex = 0;
   int currentFontIndex = 0;
-  var textSize = 14.0;
-  var verticalSpacing = 1.0;
-  var textLineSpace = 1.0;
 
   @override
   Widget build(BuildContext context) {
@@ -92,116 +89,17 @@ class _Edit_pageState extends State<Edit_page> {
                         flex: 7,
                         child: Padding(
                           padding: const EdgeInsets.all(20),
-                          child: Text(
-                            currentQuote.quote,
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                              fontSize: textSize,
-                              letterSpacing: textLineSpace,
-                              height: textLineSpace + verticalSpacing,
-                              fontFamily: googleFonts[currentFontIndex],
+                          child: Center(
+                            child: Text(
+                              currentQuote.quote,
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 22,
+                              ),
                             ),
                           ),
                         ),
-                      ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          SizedBox(
-                            width: Get.width * 0.1,
-                          ),
-                          Expanded(
-                            child: Row(
-                              children: [
-                                GestureDetector(
-                                  onTap: () {
-                                    setState(() {
-                                      if (textSize >= 11) {
-                                        textSize = textSize - 1.0;
-                                      }
-                                      print(textSize);
-                                    });
-                                  },
-                                  child: Container(
-                                    height: Get.height * 0.05,
-                                    width: Get.width * 0.1,
-                                    decoration: (BoxDecoration(
-                                      borderRadius: BorderRadius.circular(5),
-
-                                    )),
-                                    child: const Icon(Icons.remove,color: Colors.white),
-                                  ),
-                                ),
-                                SizedBox(width: Get.width * 0.03),
-                                Text("$textSize",style: TextStyle(color: Colors.white)),
-                                SizedBox(width: Get.width * 0.03),
-                                GestureDetector(
-                                  onTap: () {
-                                    setState(() {
-                                      if (textSize <= 29) {
-                                        textSize = textSize + 1.0;
-                                      }
-                                      print(textSize);
-                                    });
-                                  },
-                                  child: Container(
-                                    height: Get.height * 0.05,
-                                    width: Get.width * 0.1,
-                                    decoration: (BoxDecoration(
-                                      borderRadius: BorderRadius.circular(5),
-
-                                    )),
-                                    child: const Icon(Icons.add,color: Colors.white),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                          Expanded(
-                            child: Row(
-                              children: [
-                                GestureDetector(
-                                  onTap: () {
-                                    setState(() {
-                                      if (verticalSpacing > 0.1) {
-                                        verticalSpacing -= 0.1;
-                                      }
-                                    });
-                                  },
-                                  child: Container(
-                                    height: Get.height * 0.05,
-                                    width: Get.width * 0.1,
-                                    decoration: (BoxDecoration(
-                                      borderRadius: BorderRadius.circular(5),
-
-                                    )),
-                                    child: const Icon(Icons.remove,color: Colors.white),
-                                  ),
-                                ),
-                                SizedBox(width: Get.width * 0.05),
-                                Text(verticalSpacing.toStringAsFixed(1),style: TextStyle(color: Colors.white)),
-                                SizedBox(width: Get.width * 0.03),
-                                GestureDetector(
-                                  onTap: () {
-                                    setState(() {
-                                      verticalSpacing += 0.1;
-                                    });
-                                  },
-                                  child: Container(
-                                    height: Get.height * 0.05,
-                                    width: Get.width * 0.1,
-                                    decoration: (BoxDecoration(
-                                      borderRadius: BorderRadius.circular(5),
-
-                                    )),
-                                    child: const Icon(Icons.add,color: Colors.white),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ],
                       ),
                     ],
                   ),
