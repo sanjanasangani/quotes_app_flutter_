@@ -15,8 +15,8 @@ void main()async{
       // darkTheme: ThemeData.dark(useMaterial3: true),
       getPages: [
         GetPage(name: "/",page:() => const IntroPage(),),
-        GetPage(name: "/Homepage",page:() => const HomePage(),),
-        GetPage(name: "/second",page:() => const second_page(),),
+        GetPage(name: "/categorypage",page:() => const categorypage(),),
+        GetPage(name: "/quotespage",page:() => const quotespage(),),
         GetPage(name: "/edit",page:() => const Edit_page(),),
       ],
     ),

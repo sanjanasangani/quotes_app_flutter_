@@ -19,7 +19,7 @@ class _IntroPageState extends State<IntroPage> {
       child: OnBoardingSlider(
         finishButtonText: 'Start',
         onFinish: () {
-          Get.offNamedUntil('/Homepage',(route) => route.isFirst);
+          Get.offNamedUntil('/categorypage',(route) => route.isFirst);
         },
         finishButtonStyle: FinishButtonStyle(
           // backgroundColor: kDarkBlueColor,
@@ -43,7 +43,7 @@ class _IntroPageState extends State<IntroPage> {
           ),
         ),
         trailingFunction: () {
-          Get.offNamedUntil('/Homepage',(route) => route.isFirst);
+          Get.offNamedUntil('/categorypage',(route) => route.isFirst);
         },
         controllerColor: Colors.red,
         // controllerColor: kDarkBlueColor,

@@ -9,14 +9,14 @@ import '../../modals/categorymodel.dart';
 import '../../utils/attributes.dart';
 import '../../utils/dbhelper.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class categorypage extends StatefulWidget {
+  const categorypage({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<categorypage> createState() => _categorypageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _categorypageState extends State<categorypage> {
   Future<List<CategoryDatabaseModel>>? getalldata;
   LocalJsonController localjsoncontroller = Get.put(LocalJsonController());
 
@@ -194,7 +194,7 @@ class _HomePageState extends State<HomePage> {
                             .setCategoryName(data[index].category_name);
                         getAllQuotes = DBHelper.dbHelper
                             .fatchAllQuotes(id: data[index].id);
-                        Get.toNamed("/second");
+                        Get.toNamed("/quotespage");
                       },
                       child: Column(
                         children: [

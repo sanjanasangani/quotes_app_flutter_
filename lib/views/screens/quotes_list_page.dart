@@ -8,14 +8,14 @@ import '../../contoller/qoutestitle_controller.dart';
 import '../../modals/quote_database.dart';
 import '../../utils/attributes.dart';
 
-class second_page extends StatefulWidget {
-  const second_page({super.key});
+class quotespage extends StatefulWidget {
+  const quotespage({super.key});
 
   @override
-  State<second_page> createState() => _second_pageState();
+  State<quotespage> createState() => _quotespageState();
 }
 
-class _second_pageState extends State<second_page> {
+class _quotespageState extends State<quotespage> {
   List<String> imageAssets = [
     "assets/bgimages/1.jpeg",
     "assets/bgimages/2.jpeg",
