@@ -1,1010 +1,1650 @@
 [
   {
-    "category": "Good Night",
-    "image": "assets/images/1.png",
+    "id": 101,
+    "category": "Motivation",
     "quotes": [
       {
-        "id": 1,
-        "quote": "Wishing you a good night's sleep, sweet dreams, and a morning full of love and happiness.",
-        "author": "Unknown"
+        "id": 101,
+        "quote": "Believe you can and you're halfway there.",
+        "author": "Theodore Roosevelt"
       },
       {
-        "id": 2,
-        "quote": "Good night, sleep tight. I will be dreaming of you with all my might.",
-        "author": "Unknown"
-      },
-      {
-        "id": 3,
-        "quote": "The darker the night, the brighter the stars, the deeper the grief, the closer is God!",
-        "author": "Unknown"
-      },
-      {
-        "id": 4,
-        "quote": "Night is the wonderful opportunity to take rest, to forgive, to smile, to get ready for all the battles that you have to fight tomorrow.",
-        "author": "Unknown"
-      },
-      {
-        "id": 5,
-        "quote": "Good night. May your dreams be filled with stars and angels.",
-        "author": "Unknown"
-      },
-      {
-        "id": 6,
-        "quote": "Good night. Look up, we are both under the same starry sky.",
-        "author": "Unknown"
-      },
-      {
-        "id": 7,
-        "quote": "The night is the hardest time to be alive and 4am knows all my secrets.",
-        "author": "Unknown"
-      },
-      {
-        "id": 8,
-        "quote": "Sleep is the best therapy.",
-        "author": "Unknown"
-      },
-      {
-        "id": 9,
-        "quote": "Good night. Don't let the bedbugs bite.",
-        "author": "Unknown"
-      },
-      {
-        "id": 10,
-        "quote": "Night is the blotting paper for many sorrows.",
-        "author": "Unknown"
-      }
-    ]
-  },
-  {
-    "category": "Love",
-    "image": "assets/images/2.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "I am in you and you in me, mutual in divine love.",
-        "author": "William Blake"
-      },
-      {
-        "id": 2,
-        "quote": "A successful marriage requires falling in love many times, always with the same person.",
-        "author": "Mignon McLaughlin"
-      },
-      {
-        "id": 3,
-        "quote": "Love is like a beautiful flower which I may not touch, but whose fragrance makes the garden a place of delight just the same.",
-        "author": "Helen Keller"
-      },
-      {
-        "id": 4,
-        "quote": "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
-        "author": "Dr. Seuss"
-      },
-      {
-        "id": 5,
-        "quote": "Love is a language spoken by everyone, but understood only by the heart.",
-        "author": "Unknown"
-      },
-      {
-        "id": 6,
-        "quote": "Love is the greatest gift that one generation can leave to another.",
-        "author": "Richard Garnett"
-      },
-      {
-        "id": 7,
-        "quote": "Love is not only something you feel, it is something you do.",
-        "author": "David Wilkerson"
-      },
-      {
-        "id": 8,
-        "quote": "Love is a canvas furnished by nature and embroidered by imagination.",
-        "author": "Voltaire"
-      },
-      {
-        "id": 9,
-        "quote": "Love is when you look into someone's eyes and see everything you need.",
-        "author": "Unknown"
-      },
-      {
-        "id": 10,
-        "quote": "Love is the master key that opens the gates of happiness.",
-        "author": "Oliver Wendell Holmes Sr."
-      }
-    ]
-  },
-  {
-    "category": "valentine day",
-    "image": "assets/images/3.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "I am in you and you in me, mutual in divine love.",
-        "author": "William Blake"
-      },
-      {
-        "id": 2,
-        "quote": "A successful marriage requires falling in love many times, always with the same person.",
-        "author": "Mignon McLaughlin"
-      },
-      {
-        "id": 3,
-        "quote": "Love is like a beautiful flower which I may not touch, but whose fragrance makes the garden a place of delight just the same.",
-        "author": "Helen Keller"
-      },
-      {
-        "id": 4,
-        "quote": "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
-        "author": "Dr. Seuss"
-      },
-      {
-        "id": 5,
-        "quote": "Love is a language spoken by everyone, but understood only by the heart.",
-        "author": "Unknown"
-      },
-      {
-        "id": 6,
-        "quote": "Love is the greatest gift that one generation can leave to another.",
-        "author": "Richard Garnett"
-      },
-      {
-        "id": 7,
-        "quote": "Love is not only something you feel, it is something you do.",
-        "author": "David Wilkerson"
-      },
-      {
-        "id": 8,
-        "quote": "Love is a canvas furnished by nature and embroidered by imagination.",
-        "author": "Voltaire"
-      },
-      {
-        "id": 9,
-        "quote": "Love is when you look into someone's eyes and see everything you need.",
-        "author": "Unknown"
-      },
-      {
-        "id": 10,
-        "quote": "Love is the master key that opens the gates of happiness.",
-        "author": "Oliver Wendell Holmes Sr."
-      }
-    ]
-  },
-  {
-    "category": "thank you",
-    "image": "assets/images/4.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "Gratitude is the sweetest thing in a seeker's life - in all human life. If there is gratitude in your heart, then there will be tremendous sweetness in your eyes.",
-        "author": "Sri Chinmoy"
-      },
-      {
-        "id": 2,
-        "quote": "Thank you for your thoughtfulness.",
-        "author": "Unknown"
-      },
-      {
-        "id": 3,
-        "quote": "Gratitude is the memory of the heart.",
-        "author": "Jean Baptiste Massieu"
-      },
-      {
-        "id": 4,
-        "quote": "Thank you for your friendship and support.",
-        "author": "Unknown"
-      },
-      {
-        "id": 5,
-        "quote": "Gratitude makes sense of our past, brings peace for today, and creates a vision for tomorrow.",
-        "author": "Melody Beattie"
-      },
-      {
-        "id": 6,
-        "quote": "Thank you for always going above and beyond.",
-        "author": "Unknown"
-      },
-      {
-        "id": 7,
-        "quote": "Gratitude is the healthiest of all human emotions. The more you express gratitude for what you have, the more likely you will have even more to express gratitude for.",
-        "author": "Zig Ziglar"
-      },
-      {
-        "id": 8,
-        "quote": "Thank you for your generosity and support.",
-        "author": "Unknown"
-      },
-      {
-        "id": 9,
-        "quote": "Gratitude is not only the greatest of virtues, but the parent of all others.",
-        "author": "Marcus Tullius Cicero"
-      },
-      {
-        "id": 10,
-        "quote": "Thank you for being an amazing person.",
-        "author": "Unknown"
-      }
-    ]
-  },
-  {
-    "category": "social",
-    "image": "assets/images/5.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "Social media is the new way of communication, and it is everywhere; it changes the world and individual's lives.",
-        "author": "Anonymous"
-      },
-      {
-        "id": 2,
-        "quote": "Social media is about the people! Not about your business. Provide for the people and the people will provide for you.",
-        "author": "Matt Goulart"
-      },
-      {
-        "id": 3,
-        "quote": "Social media is not just an activity; it is an investment of valuable time and resources.",
-        "author": "Sean Gardner"
-      },
-      {
-        "id": 4,
-        "quote": "Social media is not a sales pitch. It's a conversation.",
-        "author": "Unknown"
-      },
-      {
-        "id": 5,
-        "quote": "Social media is the new way of communication, and it is everywhere; it changes the world and individual's lives.",
-        "author": "Anonymous"
-      },
-      {
-        "id": 6,
-        "quote": "Social media is changing the way we communicate and the way we are perceived, both positively and negatively.",
-        "author": "Amy Jo Martin"
-      },
-      {
-        "id": 7,
-        "quote": "Social media is not a media. The key is to listen, engage, and build relationships.",
-        "author": "David Alston"
-      },
-      {
-        "id": 8,
-        "quote": "Social media is about the people! Not about your business. Provide for the people and the people will provide for you.",
-        "author": "Matt Goulart"
-      },
-      {
-        "id": 9,
-        "quote": "Social media is about sociology and psychology more than technology.",
-        "author": "Brian Solis"
-      },
-      {
-        "id": 10,
-        "quote": "Social media is not a one-time thing. It's a daily, ongoing commitment.",
-        "author": "Kathleen A. Kearns"
-      }
-    ]
-  },
-  {
-    "category": "philosophy",
-    "image": "assets/images/6.png",
-    "quotes":  [
-      {
-        "id": 1,
-        "quote": "The world is my idea.",
-        "author": "Arthur Schopenhauer"
-      },
-      {
-        "id": 2,
-        "quote": "If you would be a real seeker after truth, it is necessary that at least once in your life you doubt, as far as possible, all things.",
-        "author": "René Descartes"
-      },
-      {
-        "id": 3,
-        "quote": "I can control my passions and emotions if I can understand their nature.",
-        "author": "Spinoza"
-      },
-      {
-        "id": 4,
-        "quote": "The function of man is to live, not to exist.",
-        "author": "Jack London"
-      },
-      {
-        "id": 5,
-        "quote": "The only thing I know is that I know nothing.",
-        "author": "Socrates"
-      },
-      {
-        "id": 6,
-        "quote": "The unexamined life is not worth living.",
-        "author": "Socrates"
-      },
-      {
-        "id": 7,
-        "quote": "There is only one good, knowledge, and one evil, ignorance.",
-        "author": "Socrates"
-      },
-      {
-        "id": 8,
-        "quote": "The life of man is of no greater importance to the universe than that of an oyster.",
-        "author": "David Hume"
-      },
-      {
-        "id": 9,
-        "quote": "The limits of my language mean the limits of my world.",
-        "author": "Ludwig Wittgenstein"
-      },
-      {
-        "id": 10,
-        "quote": "To be is to be perceived.",
-        "author": "George Berkeley"
-      }
-    ]
-  },
-  {
-    "category": "new year",
-    "image": "assets/images/7.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "Each age has deemed the new-born year the fittest time for festal cheer.",
-        "author": "Walter Scott"
-      },
-      {
-        "id": 2,
-        "quote": "What the new year brings to you will depend a great deal on what you bring to the new year.",
-        "author": "Vern McLellan"
-      },
-      {
-        "id": 3,
-        "quote": "The new year stands before us, like a chapter in a book, waiting to be written. We can help write that story by setting goals.",
-        "author": "Melody Beattie"
-      },
-      {
-        "id": 4,
-        "quote": "Ring out the old, ring in the new.",
-        "author": "Alfred Lord Tennyson"
-      },
-      {
-        "id": 5,
-        "quote": "Write it on your heart that every day is the best day in the year.",
-        "author": "Ralph Waldo Emerson"
-      },
-      {
-        "id": 6,
-        "quote": "The new year stands before us, like a chapter in a book, waiting to be written.",
-        "author": "Melody Beattie"
-      },
-      {
-        "id": 7,
-        "quote": "We will open the book. Its pages are blank. We are going to put words on them ourselves. The book is called Opportunity and its first chapter is New Year's Day.",
-        "author": "Edith Lovejoy Pierce"
-      },
-      {
-        "id": 8,
-        "quote": "The object of a new year is not that we should have a new year. It is that we should have a new soul.",
-        "author": "G.K. Chesterton"
-      },
-      {
-        "id": 9,
-        "quote": "For last year's words belong to last year's language and next year's words await another voice.",
-        "author": "T.S. Eliot"
-      },
-      {
-        "id": 10,
-        "quote": "Cheers to a new year and another chance for us to get it right.",
-        "author": "Oprah Winfrey"
-      }
-    ]
-  },
-  {
-    "category": "Nature",
-    "image": "assets/images/8.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "In every walk with nature, one receives far more than he seeks.",
-        "author": "John Muir"
-      },
-      {
-        "id": 2,
-        "quote": "The clearest way into the Universe is through a forest wilderness.",
-        "author": "John Muir"
-      },
-      {
-        "id": 3,
-        "quote": "Adopt the pace of nature: her secret is patience.",
-        "author": "Ralph Waldo Emerson"
-      },
-      {
-        "id": 4,
-        "quote": "The poetry of the earth is never dead.",
-        "author": "John Keats"
-      },
-      {
-        "id": 5,
-        "quote": "The mountains are calling, and I must go.",
-        "author": "John Muir"
-      },
-      {
-        "id": 6,
-        "quote": "Nature does not hurry, yet everything is accomplished.",
-        "author": "Lao Tzu"
-      },
-      {
-        "id": 7,
-        "quote": "Study nature, love nature, stay close to nature. It will never fail you.",
-        "author": "Frank Lloyd Wright"
-      },
-      {
-        "id": 8,
-        "quote": "The richness I achieve comes from Nature, the source of my inspiration.",
-        "author": "Claude Monet"
-      },
-      {
-        "id": 9,
-        "quote": "Keep close to Nature's heart... and break clear away, once in a while, and climb a mountain or spend a week in the woods. Wash your spirit clean.",
-        "author": "John Muir"
-      },
-      {
-        "id": 10,
-        "quote": "To sit in the shade on a fine day and look upon the verdant green hills is the most perfect refreshment.",
-        "author": "Jane Austen"
-      }
-    ]
-  },
-  {
-    "category": "Meditation",
-    "image": "assets/images/9.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "In every walk with nature, one receives far more than he seeks.",
-        "author": "John Muir"
-      },
-      {
-        "id": 2,
-        "quote": "The clearest way into the Universe is through a forest wilderness.",
-        "author": "John Muir"
-      },
-      {
-        "id": 3,
-        "quote": "Adopt the pace of nature: her secret is patience.",
-        "author": "Ralph Waldo Emerson"
-      },
-      {
-        "id": 4,
-        "quote": "The poetry of the earth is never dead.",
-        "author": "John Keats"
-      },
-      {
-        "id": 5,
-        "quote": "The mountains are calling, and I must go.",
-        "author": "John Muir"
-      },
-      {
-        "id": 6,
-        "quote": "Nature does not hurry, yet everything is accomplished.",
-        "author": "Lao Tzu"
-      },
-      {
-        "id": 7,
-        "quote": "Study nature, love nature, stay close to nature. It will never fail you.",
-        "author": "Frank Lloyd Wright"
-      },
-      {
-        "id": 8,
-        "quote": "The richness I achieve comes from Nature, the source of my inspiration.",
-        "author": "Claude Monet"
-      },
-      {
-        "id": 9,
-        "quote": "Keep close to Nature's heart... and break clear away, once in a while, and climb a mountain or spend a week in the woods. Wash your spirit clean.",
-        "author": "John Muir"
-      },
-      {
-        "id": 10,
-        "quote": "To sit in the shade on a fine day and look upon the verdant green hills is the most perfect refreshment.",
-        "author": "Jane Austen"
-      }
-    ]
-  },
-  {
-    "category": "Jealousy",
-    "image": "assets/images/10.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "Jealousy is the art of counting someone else's blessings instead of your own.",
-        "author": "Unknown"
-      },
-      {
-        "id": 2,
-        "quote": "Jealousy is both reasonable and belongs to reasonable men, while envy is base and belongs to the base, for the one makes himself get good things by jealousy, while the other does not allow his neighbour to have them through envy.",
-        "author": "Aristotle"
-      },
-      {
-        "id": 3,
-        "quote": "Jealousy is a wasted emotion.",
-        "author": "Unknown"
-      },
-      {
-        "id": 4,
-        "quote": "Jealousy is the dragon in paradise; the hell of heaven; and the most bitter of the emotions because associated with the sweetest.",
-        "author": "A.R. Orage"
-      },
-      {
-        "id": 5,
-        "quote": "Jealousy is never satisfied with anything short of an omniscience that would detect the subtlest fold of the heart.",
-        "author": "George Eliot"
-      },
-      {
-        "id": 6,
-        "quote": "Jealousy is all the fun you think they had.",
-        "author": "Erica Jong"
-      },
-      {
-        "id": 7,
-        "quote": "Jealousy is simply and clearly the fear that you do not have value. Jealousy scans for evidence to prove the point - that others will be preferred and rewarded more than you. There is only one alternative - self-value. If you cannot love yourself, you will not believe that you are loved. You will always think it's a mistake or luck. Take your eyes off others and turn the scanner within. Find the seeds of your jealousy, clear the old voices and experiences. Put all the energy into building your personal and emotional security. Then you will be the one others envy, and you can remember the pain and reach out to them.",
-        "author": "Jennifer James"
-      },
-      {
-        "id": 8,
-        "quote": "Jealousy is a disease, love is a healthy condition. The immature mind often mistakes one for the other, or assumes that the greater the love, the greater the jealousy - in fact, they are almost incompatible; one emotion hardly leaves room for the other.",
-        "author": "Robert A. Heinlein"
-      },
-      {
-        "id": 9,
-        "quote": "Jealousy is the fear of comparison.",
-        "author": "Max Frisch"
-      },
-      {
-        "id": 10,
-        "quote": "Jealousy is the jaundice of the soul.",
-        "author": "John Dryden"
-      }
-    ]
-  },
-  {
-    "category": "God",
-    "image": "assets/images/11.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "God is the ultimate judge.",
-        "author": "Romans 14:12"
-      },
-      {
-        "id": 2,
-        "quote": "God is the rock of salvation.",
-        "author": "Psalm 89:26"
-      },
-      {
-        "id": 3,
-        "quote": "God is the giver of life.",
-        "author": "Genesis 2:7"
-      },
-      {
-        "id": 4,
-        "quote": "God's word is a lamp to our feet.",
-        "author": "Psalm 119:105"
-      },
-      {
-        "id": 5,
-        "quote": "God is love, and whoever abides in love abides in God.",
-        "author": "1 John 4:16"
-      },
-      {
-        "id": 6,
-        "quote": "God is the healer of the brokenhearted.",
-        "author": "Psalm 147:3"
-      },
-      {
-        "id": 7,
-        "quote": "God's strength is made perfect in weakness.",
-        "author": "2 Corinthians 12:9"
-      },
-      {
-        "id": 8,
-        "quote": "God is the giver of peace.",
-        "author": "John 14:27"
-      },
-      {
-        "id": 9,
-        "quote": "God is the redeemer of all things.",
-        "author": "Job 19:25"
-      },
-      {
-        "id": 10,
-        "quote": "God is the provider of all our needs.",
-        "author": "Philippians 4:19"
-      }
-    ]
-  },
-  {
-    "category": "Funny",
-    "image": "assets/images/12.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "I'm not old, I'm vintage.",
-        "author": "Unknown"
-      },
-      {
-        "id": 2,
-        "quote": "I'm not weird, I'm limited edition.",
-        "author": "Unknown"
-      },
-      {
-        "id": 3,
-        "quote": "I don't need a hairstylist, my pillow gives me a new hairstyle every morning.",
-        "author": "Unknown"
-      },
-      {
-        "id": 4,
-        "quote": "I'm not lazy, I'm on energy-saving mode.",
-        "author": "Unknown"
-      },
-      {
-        "id": 5,
-        "quote": "I'm not clumsy, the floor just hates me.",
-        "author": "Unknown"
-      },
-      {
-        "id": 6,
-        "quote": "I'm not short, I'm concentrated awesome.",
-        "author": "Unknown"
-      },
-      {
-        "id": 7,
-        "quote": "I'm not arguing, I'm just explaining why I'm right.",
-        "author": "Unknown"
-      },
-      {
-        "id": 8,
-        "quote": "I'm not a complete idiot, some parts are missing.",
-        "author": "Unknown"
-      },
-      {
-        "id": 9,
-        "quote": "I put the 'pro' in procrastination.",
-        "author": "Unknown"
-      },
-      {
-        "id": 10,
-        "quote": "I don't sweat, I sparkle.",
-        "author": "Unknown"
-      }
-    ]
-  },
-  {
-    "category": "Dream",
-    "image": "assets/images/13.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "The biggest adventure you can take is to live the life of your dreams.",
-        "author": "Oprah Winfrey"
-      },
-      {
-        "id": 2,
-        "quote": "You are never too old to set another goal or to dream a new dream.",
-        "author": "C.S. Lewis"
-      },
-      {
-        "id": 3,
-        "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
-        "author": "Franklin D. Roosevelt"
-      },
-      {
-        "id": 4,
-        "quote": "The future belongs to those who believe in the beauty of their dreams.",
-        "author": "Eleanor Roosevelt"
-      },
-      {
-        "id": 5,
-        "quote": "The future belongs to those who believe in their dreams.",
-        "author": "Unknown"
-      },
-      {
-        "id": 6,
-        "quote": "Dreams are not what you see in your sleep, dreams are things which do not let you sleep.",
-        "author": "Dr. Abdul Kalam"
-      },
-      {
-        "id": 7,
-        "quote": "The only thing that will stop you from fulfilling your dreams is you.",
-        "author": "Tom Bradley"
-      },
-      {
-        "id": 8,
-        "quote": "Don't let small minds convince you that your dreams are too big.",
-        "author": "Unknown"
-      },
-      {
-        "id": 9,
-        "quote": "Dream big and dare to fail.",
-        "author": "Norman Vaughan"
-      },
-      {
-        "id": 10,
-        "quote": "All our dreams can come true, if we have the courage to pursue them.",
-        "author": "Walt Disney"
-      }
-    ]
-  },
-  {
-    "category": "Christmas",
-    "image": "assets/images/14.png",
-    "quotes": [
-
-      {
-        "id": 1,
-        "quote": "Christmas is the day that holds all time together.",
-        "author": "Alexander Smith"
-      },
-      {
-        "id": 2,
-        "quote": "Christmas is a season not only of rejoicing but of reflection.",
-        "author": "Winston Churchill"
-      },
-      {
-        "id": 3,
-        "quote": "Christmas is not a time nor a season, but a state of mind. To cherish peace and goodwill, to be plenteous in mercy, is to have the real spirit of Christmas.",
-        "author": "Calvin Coolidge"
-      },
-      {
-        "id": 4,
-        "quote": "Christmas is the spirit of giving without a thought of getting. It is happiness because we see joy in people. It is forgetting self and finding time for others. It is discarding the meaningless and stressing the true values.",
-        "author": "Thomas S. Monson"
-      },
-      {
-        "id": 5,
-        "quote": "Christmas, my child, is love in action. Every time we love, every time we give, it's Christmas.",
-        "author": "Dale Evans"
-      },
-      {
-        "id": 6,
-        "quote": "Christmas is doing a little something extra for someone.",
-        "author": "Charles M. Schulz"
-      },
-      {
-        "id": 7,
-        "quote": "Christmas is a season of joy, love, and sharing with family and friends.",
-        "author": "Unknown"
-      },
-      {
-        "id": 8,
-        "quote": "Christmas is a time when you get homesick — even when you're home.",
-        "author": "Carol Nelson"
-      },
-      {
-        "id": 9,
-        "quote": "Christmas is not just a time for festivity and merry making. It is more than that. It is a time for the contemplation of eternal things. The Christmas spirit is a spirit of giving and forgiving.",
-        "author": "J.C. Penney"
-      },
-      {
-        "id": 10,
-        "quote": "Christmas is not as much about opening our presents as opening our hearts.",
-        "author": "Janice Maeditere"
-      }
-    ]
-  },
-  {
-    "category": "Art",
-    "image": "assets/images/15.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "Love is not about how many days, months, or years you have been together. Love is about how much you love each other every single day.",
-        "author": "Unknown"
-      },
-      {
-        "id": 2,
-        "quote": "Chains do not hold a marriage together. It is threads, hundreds of tiny threads, which sew people together through the years.",
-        "author": "Simone Signoret"
-      },
-      {
-        "id": 3,
-        "quote": "An anniversary is a reminder as to why you love and married this person.",
-        "author": "Zoe Foster Blake"
-      },
-      {
-        "id": 4,
-        "quote": "True love stories never have endings.",
-        "author": "Richard Bach"
-      },
-      {
-        "id": 5,
-        "quote": "The greatest thing you'll ever learn is to love and be loved in return.",
-        "author": "Nat King Cole"
-      },
-      {
-        "id": 6,
-        "quote": "A wedding anniversary is the celebration of love, trust, partnership, tolerance, and tenacity. The order varies for any given year.",
-        "author": "Paul Sweeney"
-      },
-      {
-        "id": 7,
-        "quote": "The secret to a happy marriage is if you can be at peace with someone within four walls, if you are content because the one you love is near to you, either upstairs or downstairs, or in the same room, and you feel that warmth that you don't find very often, then that is what love is all about.",
-        "author": "Bruce Forsyth"
-      },
-      {
-        "id": 8,
-        "quote": "The bonds of matrimony are like any other bonds - they mature slowly.",
-        "author": "Peter De Vries"
-      },
-      {
-        "id": 9,
-        "quote": "A wedding anniversary is the celebration of love, trust, partnership, tolerance, and tenacity. The order varies for any given year.",
-        "author": "Paul Sweeney"
-      },
-      {
-        "id": 10,
-        "quote": "A successful marriage isn't the union of two perfect people. It's that of two imperfect people who have learned the value of forgiveness and grace.",
-        "author": "Darlene Schacht"
-      }
-    ]
-  },
-  {
-    "category": "Friendship",
-    "image": "assets/images/16.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "Friendship is born at that moment when one person says to another, 'What! You too? I thought I was the only one.'",
-        "author": "C.S. Lewis"
-      },
-      {
-        "id": 2,
-        "quote": "A friend is someone who understands your past, believes in your future, and accepts you just the way you are.",
-        "author": "Unknown"
-      },
-      {
-        "id": 3,
-        "quote": "A true friend is the greatest of all blessings and the one that we take the least thought about acquiring.",
-        "author": "Francois de La Rochefoucauld"
-      },
-      {
-        "id": 4,
-        "quote": "Friendship is the only cement that will ever hold the world together.",
-        "author": "Woodrow Wilson"
-      },
-      {
-        "id": 5,
-        "quote": "A real friend is one who walks in when the rest of the world walks out.",
-        "author": "Walter Winchell"
-      },
-      {
-        "id": 6,
-        "quote": "A friend is someone who knows all about you and still loves you.",
-        "author": "Elbert Hubbard"
-      },
-      {
-        "id": 7,
-        "quote": "A friend is one that knows you as you are, understands where you have been, accepts what you have become, and still, gently allows you to grow.",
-        "author": "William Shakespeare"
-      },
-      {
-        "id": 8,
-        "quote": "Friendship is born when two people discover they aren't alone in the world.",
-        "author": "Unknown"
-      },
-      {
-        "id": 9,
-        "quote": "A true friend is someone who is always there for you, during both the good times and the bad times.",
-        "author": "Unknown"
-      },
-      {
-        "id": 10,
-        "quote": "Friendship is born at that moment when one person says to another, 'What! You too? I thought I was the only one.'",
-        "author": "C.S. Lewis"
-      }
-    ]
-  },
-  {
-    "category": "Success",
-    "image": "assets/images/17.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "Success is not about being the best. It's about being better than you were yesterday.",
-        "author": "Unknown"
-      },
-      {
-        "id": 2,
-        "quote": "Success is not the result of spontaneous combustion. You must set yourself on fire.",
-        "author": "Arnold H. Glasow"
-      },
-      {
-        "id": 3,
-        "quote": "Success is not the key to happiness. Happiness is the key to success.",
-        "author": "Herman Cain"
-      },
-      {
-        "id": 4,
-        "quote": "Success is not about the destination, it's about the journey.",
-        "author": "Unknown"
-      },
-      {
-        "id": 5,
-        "quote": "Success is not the absence of failure; it's the persistence through failure.",
-        "author": "Aisha Tyler"
-      },
-      {
-        "id": 6,
-        "quote": "Success is not in what you have, but who you are.",
-        "author": "Bo Bennett"
-      },
-      {
-        "id": 7,
-        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-        "author": "Winston Churchill"
-      },
-      {
-        "id": 8,
-        "quote": "Success is not the key to success. You have to fail and learn from your failures.",
-        "author": "Unknown"
-      },
-      {
-        "id": 9,
-        "quote": "Success is not just about making money. It's about making a difference.",
-        "author": "Unknown"
-      },
-      {
-        "id": 10,
-        "quote": "Success is not about being the best. It's about being better than you were yesterday.",
-        "author": "Unknown"
-      }
-    ]
-  },
-  {
-    "category": "insprirational",
-    "image": "assets/images/18.png",
-    "quotes": [
-      {
-        "id": 1,
-        "quote": "Your time is limited, don't waste it living someone else's life.",
+        "id": 101,
+        "quote": "The only way to do great work is to love what you do.",
         "author": "Steve Jobs"
       },
       {
-        "id": 2,
-        "quote": "The harder you work for something, the greater you'll feel when you achieve it.",
-        "author": "Unknown"
-      },
-      {
-        "id": 3,
-        "quote": "Success is not the key to happiness. Happiness is the key to success.",
-        "author": "Albert Schweitzer"
-      },
-      {
-        "id": 4,
+        "id": 101,
         "quote": "Don't watch the clock; do what it does. Keep going.",
         "author": "Sam Levenson"
       },
       {
-        "id": 5,
+        "id": 101,
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "author": "Winston Churchill"
+      },
+      {
+        "id": 101,
         "quote": "The future belongs to those who believe in the beauty of their dreams.",
         "author": "Eleanor Roosevelt"
       },
       {
-        "id": 6,
+        "id": 101,
+        "quote": "You miss 100% of the shots you don't take.",
+        "author": "Wayne Gretzky"
+      },
+      {
+        "id": 101,
+        "quote": "In the middle of every difficulty lies opportunity.",
+        "author": "Albert Einstein"
+      },
+      {
+        "id": 101,
         "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
         "author": "Franklin D. Roosevelt"
       },
       {
-        "id": 7,
+        "id": 101,
+        "quote": "It does not matter how slowly you go as long as you do not stop.",
+        "author": "Confucius"
+      },
+      {
+        "id": 101,
+        "quote": "The harder I work, the luckier I get.",
+        "author": "Gary Player"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "category": "Inspirational",
+    "quotes": [
+      {
+        "id": 102,
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs"
+      },
+      {
+        "id": 102,
+        "quote": "The future belongs to those who believe in the beauty of their dreams.",
+        "author": "Eleanor Roosevelt"
+      },
+      {
+        "id": 102,
+        "quote": "In the middle of every difficulty lies opportunity.",
+        "author": "Albert Einstein"
+      },
+      {
+        "id": 102,
+        "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+        "author": "Franklin D. Roosevelt"
+      },
+      {
+        "id": 102,
+        "quote": "It does not matter how slowly you go as long as you do not stop.",
+        "author": "Confucius"
+      },
+      {
+        "id": 102,
+        "quote": "The harder I work, the luckier I get.",
+        "author": "Gary Player"
+      },
+      {
+        "id": 102,
+        "quote": "Believe you can and you're halfway there.",
+        "author": "Theodore Roosevelt"
+      },
+      {
+        "id": 102,
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "author": "Winston Churchill"
+      },
+      {
+        "id": 102,
+        "quote": "You miss 100% of the shots you don't take.",
+        "author": "Wayne Gretzky"
+      },
+      {
+        "id": 102,
+        "quote": "Don't watch the clock; do what it does. Keep going.",
+        "author": "Sam Levenson"
+      }
+    ]
+  },
+  {
+  "id": 103,
+  "category": "Love",
+  "quotes": [
+    {
+      "id": 103,
+      "quote": "Love is composed of a single soul inhabiting two bodies.",
+      "author": "Aristotle"
+    },
+    {
+      "id": 103,
+      "quote": "The best thing to hold onto in life is each other.",
+      "author": "Audrey Hepburn"
+    },
+    {
+      "id": 103,
+      "quote": "Love is friendship that has caught fire.",
+      "author": "Ann Landers"
+    },
+    {
+      "id": 103,
+      "quote": "Love is when the other person's happiness is more important than your own.",
+      "author": "H. Jackson Brown Jr."
+    },
+    {
+      "id": 103,
+      "quote": "Being deeply loved by someone gives you strength while loving someone deeply gives you courage.",
+      "author": "Lao Tzu"
+    },
+    {
+      "id": 103,
+      "quote": "Love isn't something you find. Love is something that finds you.",
+      "author": "Loretta Young"
+    },
+    {
+      "id": 103,
+      "quote": "The greatest happiness of life is the conviction that we are loved; loved for ourselves, or rather, loved in spite of ourselves.",
+      "author": "Victor Hugo"
+    },
+    {
+      "id": 103,
+      "quote": "Love is the greatest refreshment in life.",
+      "author": "Pablo Picasso"
+    },
+    {
+      "id": 103,
+      "quote": "Love is the answer, and you know that for sure; Love is a flower, you've got to let it grow.",
+      "author": "John Lennon"
+    },
+    {
+      "id": 103,
+      "quote": "To love and be loved is to feel the sun from both sides.",
+      "author": "David Viscott"
+    }
+  ]
+},
+  {
+  "id": 104,
+  "category": "Friendship",
+  "quotes": [
+    {
+      "id": 104,
+      "quote": "A true friend is someone who is always there for you, through the ups and downs.",
+      "author": "Unknown"
+    },
+    {
+      "id": 104,
+      "quote": "Friendship is born at that moment when one person says to another, 'What! You too? I thought I was the only one.'",
+      "author": "C.S. Lewis"
+    },
+    {
+      "id": 104,
+      "quote": "A real friend is one who walks in when the rest of the world walks out.",
+      "author": "Walter Winchell"
+    },
+    {
+      "id": 104,
+      "quote": "Friendship is the only cement that will ever hold the world together.",
+      "author": "Woodrow Wilson"
+    },
+    {
+      "id": 104,
+      "quote": "A friend is someone who knows all about you and still loves you.",
+      "author": "Elbert Hubbard"
+    },
+    {
+      "id": 104,
+      "quote": "Friendship is born at that moment when one person says to another, 'You too? I thought I was the only one!'",
+      "author": "C.S. Lewis"
+    },
+    {
+      "id": 104,
+      "quote": "Friendship is a plant of slow growth and must undergo and withstand the shocks of adversity before it is entitled to the appellation.",
+      "author": "George Washington"
+    },
+    {
+      "id": 104,
+      "quote": "A true friend is one who overlooks your failures and tolerates your success.",
+      "author": "Doug Larson"
+    },
+    {
+      "id": 104,
+      "quote": "A friend is someone who gives you total freedom to be yourself.",
+      "author": "Jim Morrison"
+    },
+    {
+      "id": 104,
+      "quote": "Friendship is the only cement that will ever hold the world together.",
+      "author": "Woodrow Wilson"
+    }
+  ]
+},
+  {
+    "id": 105,
+    "category": "Success",
+    "quotes": [
+      {
+        "id": 105,
+        "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+        "author": "Albert Schweitzer"
+      },
+      {
+        "id": 105,
+        "quote": "Success usually comes to those who are too busy to be looking for it.",
+        "author": "Henry David Thoreau"
+      },
+      {
+        "id": 105,
+        "quote": "The only place where success comes before work is in the dictionary.",
+        "author": "Vidal Sassoon"
+      },
+      {
+        "id": 105,
+        "quote": "Success is not in what you have, but who you are.",
+        "author": "Bo Bennett"
+      },
+      {
+        "id": 105,
+        "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+        "author": "Albert Schweitzer"
+      },
+      {
+        "id": 105,
+        "quote": "The road to success and the road to failure are almost exactly the same.",
+        "author": "Colin R. Davis"
+      },
+      {
+        "id": 105,
+        "quote": "Success is not just about making money. It's about making a difference.",
+        "author": "Unknown"
+      },
+      {
+        "id": 105,
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "author": "Winston Churchill"
+      },
+      {
+        "id": 105,
+        "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+        "author": "Franklin D. Roosevelt"
+      },
+      {
+        "id": 105,
+        "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+        "author": "Albert Schweitzer"
+      }
+    ]
+  },
+  {
+  "id": 106,
+  "category": "Happiness",
+  "quotes": [
+    {
+      "id": 106,
+      "quote": "Happiness is not something ready made. It comes from your own actions.",
+      "author": "Dalai Lama"
+    },
+    {
+      "id": 106,
+      "quote": "The purpose of our lives is to be happy.",
+      "author": "Dalai Lama"
+    },
+    {
+      "id": 106,
+      "quote": "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+      "author": "William Saroyan"
+    },
+    {
+      "id": 106,
+      "quote": "Happiness is a choice, not a result. Nothing will make you happy until you choose to be happy.",
+      "author": "Ralph Marston"
+    },
+    {
+      "id": 106,
+      "quote": "The secret of happiness is not in doing what one likes, but in liking what one does.",
+      "author": "James M. Barrie"
+    },
+    {
+      "id": 106,
+      "quote": "The best way to cheer yourself is to try to cheer someone else up.",
+      "author": "Mark Twain"
+    },
+    {
+      "id": 106,
+      "quote": "Happiness is when what you think, what you say, and what you do are in harmony.",
+      "author": "Mahatma Gandhi"
+    },
+    {
+      "id": 106,
+      "quote": "The only way to find true happiness is to risk being completely cut open.",
+      "author": "Chuck Palahniuk"
+    },
+    {
+      "id": 106,
+      "quote": "The greatest happiness of life is the conviction that we are loved; loved for ourselves, or rather, loved in spite of ourselves.",
+      "author": "Victor Hugo"
+    },
+    {
+      "id": 106,
+      "quote": "Happiness is not something you postpone for the future; it is something you design for the present.",
+      "author": "Jim Rohn"
+    }
+  ]
+},
+  {
+    "id": 107,
+    "category": "Wisdom",
+    "quotes": [
+      {
+        "id": 107,
+        "quote": "The only true wisdom is in knowing you know nothing.",
+        "author": "Socrates"
+      },
+      {
+        "id": 107,
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs"
+      },
+      {
+        "id": 107,
+        "quote": "Knowledge speaks, but wisdom listens.",
+        "author": "Jimi Hendrix"
+      },
+      {
+        "id": 107,
+        "quote": "The only thing that I know is that I know nothing.",
+        "author": "Socrates"
+      },
+      {
+        "id": 107,
+        "quote": "Wisdom is not a product of schooling but of the lifelong attempt to acquire it.",
+        "author": "Albert Einstein"
+      },
+      {
+        "id": 107,
+        "quote": "The fool doth think he is wise, but the wise man knows himself to be a fool.",
+        "author": "William Shakespeare"
+      },
+      {
+        "id": 107,
+        "quote": "The only true wisdom is in knowing you know nothing.",
+        "author": "Socrates"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "category": "Funny",
+    "quotes": [
+      {
+        "id": 108,
+
+        "quote": "I'm not clumsy, it's just that the floor hates me, the table and chairs are bullies, and the walls get in my way.",
+        "author": "Unknown"
+      },
+      {
+        "id": 108,
+
+        "quote": "I don't need a hairstylist, my pillow gives me a new hairstyle every morning.",
+        "author": "Unknown"
+      },
+      {
+        "id": 108,
+
+        "quote": "I told my wife she should embrace her mistakes. She hugged me.",
+        "author": "Unknown"
+      },
+      {
+        "id": 108,
+
+        "quote": "I'm not lazy, I'm just on energy-saving mode.",
+        "author": "Unknown"
+      },
+      {
+        "id": 108,
+
+        "quote": "I'm not arguing, I'm just explaining why I'm right.",
+        "author": "Unknown"
+      },
+      {
+        "id": 108,
+
+        "quote": "I don't suffer from insanity. I enjoy every minute of it.",
+        "author": "Unknown"
+      },
+      {
+        "id": 108,
+
+        "quote": "I don't need a parachute. If I fall, I'll just land on my awesomeness.",
+        "author": "Unknown"
+      },
+      {
+        "id": 108,
+
+        "quote": "I used to be indecisive. Now I'm not sure.",
+        "author": "Unknown"
+      },
+      {
+        "id": 108,
+
+        "quote": "I'm not crazy, my reality is just different than yours.",
+        "author": "Unknown"
+      },
+      {
+        "id": 108,
+
+        "quote": "I'm not short, I'm concentrated awesome.",
+        "author": "Unknown"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "category": "Life",
+    "quotes": [
+      {
+        "id": 109,
+        "quote": "Life is 10% what happens to us and 90% how we react to it.",
+        "author": "Charles R. Swindoll"
+      },
+      {
+        "id": 109,
+        "quote": "In three words I can sum up everything I've learned about life: it goes on.",
+        "author": "Robert Frost"
+      },
+      {
+        "id": 109,
+        "quote": "The biggest adventure you can take is to live the life of your dreams.",
+        "author": "Oprah Winfrey"
+      },
+      {
+        "id": 109,
+        "quote": "Life is really simple, but we insist on making it complicated.",
+        "author": "Confucius"
+      },
+      {
+        "id": 109,
+        "quote": "The purpose of our lives is to be happy.",
+        "author": "Dalai Lama"
+      },
+      {
+        "id": 109,
+        "quote": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+        "author": "Albert Einstein"
+      },
+      {
+        "id": 109,
+        "quote": "Life is short, and it's up to you to make it sweet.",
+        "author": "Sarah Louise Delany"
+      },
+      {
+        "id": 109,
+        "quote": "Life is a succession of lessons which must be lived to be understood.",
+        "author": "Ralph Waldo Emerson"
+      },
+      {
+        "id": 109,
+        "quote": "Life is what happens when you're busy making other plans.",
+        "author": "John Lennon"
+      },
+      {
+        "id": 109,
+        "quote": "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.",
+        "author": "Ralph Waldo Emerson"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "category": "Strength",
+    "quotes": [
+      {
+        "id": 110,
+
+        "quote": "Strength does not come from physical capacity. It comes from an indomitable will.",
+        "author": "Mahatma Gandhi"
+      },
+      {
+        "id": 110,
+
+        "quote": "You have power over your mind, not outside events. Realize this, and you will find strength.",
+        "author": "Marcus Aurelius"
+      },
+      {
+        "id": 110,
+
+        "quote": "Courage is the most important of all the virtues because without courage, you can't practice any other virtue consistently.",
+        "author": "Maya Angelou"
+      },
+      {
+        "id": 110,
+
+        "quote": "Believe in yourself, take on your challenges, dig deep within yourself to conquer fears. Never let anyone bring you down. You got this.",
+        "author": "Chantal Sutherland"
+      },
+      {
+        "id": 110,
+
+        "quote": "Strength and growth come only through continuous effort and struggle.",
+        "author": "Napoleon Hill"
+      },
+      {
+        "id": 110,
+
+        "quote": "Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength.",
+        "author": "Arnold Schwarzenegger"
+      },
+      {
+        "id": 110,
+
+        "quote": "With the new day comes new strength and new thoughts.",
+        "author": "Eleanor Roosevelt"
+      },
+      {
+        "id": 110,
+
+        "quote": "Strength does not come from what you can do. It comes from overcoming the things you once thought you couldn't.",
+        "author": "Rikki Rogers"
+      },
+      {
+        "id": 110,
+
+        "quote": "I love the man that can smile in trouble, that can gather strength from distress, and grow brave by reflection. 'Tis the business of little minds to shrink, but he whose heart is firm, and whose conscience approves his conduct, will pursue his principles unto death.",
+        "author": "Thomas Paine"
+      },
+      {
+        "id": 110,
+
+        "quote": "Strength doesn't come from what you can do. It comes from overcoming the things you once thought you couldn't.",
+        "author": "Ashley Greene"
+      }
+    ]
+  },
+  {
+  "id": 111,
+  "category": "Hope",
+  "quotes": [
+    {
+      "id": 111,
+
+      "quote": "Hope is being able to see that there is light despite all of the darkness.",
+      "author": "Desmond Tutu"
+    },
+    {
+      "id": 111,
+
+      "quote": "Hope is the thing with feathers that perches in the soul and sings the tune without the words and never stops at all.",
+      "author": "Emily Dickinson"
+    },
+    {
+      "id": 111,
+
+      "quote": "Hope is being able to see that there is light despite all of the darkness.",
+      "author": "Desmond Tutu"
+    },
+    {
+      "id": 111,
+
+      "quote": "Hope is the only thing stronger than fear.",
+      "author": "Robert Ludlum"
+    },
+    {
+      "id": 111,
+
+      "quote": "Hope is the thing with feathers that perches in the soul and sings the tune without the words and never stops at all.",
+      "author": "Emily Dickinson"
+    },
+    {
+      "id": 111,
+
+      "quote": "Hope is the only thing stronger than fear.",
+      "author": "Robert Ludlum"
+    },
+    {
+      "id": 111,
+
+      "quote": "We must accept finite disappointment, but never lose infinite hope.",
+      "author": "Martin Luther King Jr."
+    },
+    {
+      "id": 111,
+
+      "quote": "Hope is a waking dream.",
+      "author": "Aristotle"
+    },
+    {
+      "id": 111,
+
+      "quote": "Hope is the thing with feathers that perches in the soul and sings the tune without the words and never stops at all.",
+      "author": "Emily Dickinson"
+    },
+    {
+      "id": 111,
+
+      "quote": "Hope is the only thing stronger than fear.",
+      "author": "Robert Ludlum"
+    }
+  ]
+},
+  {
+    "id": 112,
+    "category": "Faith",
+    "quotes": [
+      {
+        "id": 112,
+        "quote": "Faith is taking the first step even when you don't see the whole staircase.",
+        "author": "Martin Luther King Jr."
+      },
+      {
+        "id": 112,
+        "quote": "Faith is the bird that feels the light when the dawn is still dark.",
+        "author": "Rabindranath Tagore"
+      },
+      {
+        "id": 112,
+        "quote": "Faith is the strength by which a shattered world shall emerge into the light.",
+        "author": "Helen Keller"
+      },
+      {
+        "id": 112,
+        "quote": "Faith is not the belief that God will do what you want. It is the belief that God will do what is right.",
+        "author": "Max Lucado"
+      },
+      {
+        "id": 112,
+        "quote": "Faith is the art of holding on to things your reason has once accepted in spite of your changing moods.",
+        "author": "C.S. Lewis"
+      },
+      {
+        "id": 112,
+        "quote": "Faith is to believe what you do not see; the reward of this faith is to see what you believe.",
+        "author": "Saint Augustine"
+      },
+      {
+        "id": 112,
+        "quote": "Faith is the substance of things hoped for, the evidence of things not seen.",
+        "author": "Hebrews 11:1"
+      },
+      {
+        "id": 112,
+        "quote": "Faith is not the belief that God will do what you want. It is the belief that God will do what is right.",
+        "author": "Max Lucado"
+      },
+      {
+        "id": 112,
+        "quote": "Faith is the strength by which a shattered world shall emerge into the light.",
+        "author": "Helen Keller"
+      },
+      {
+        "id": 112,
+        "quote": "Faith is taking the first step even when you don't see the whole staircase.",
+        "author": "Martin Luther King Jr."
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "category": "Family",
+    "quotes": [
+      {
+        "id": 113,
+        "quote": "Family is not an important thing. It's everything.",
+        "author": "Michael J. Fox"
+      },
+      {
+        "id": 113,
+        "quote": "The love of a family is life's greatest blessing.",
+        "author": "Unknown"
+      },
+      {
+        "id": 113,
+        "quote": "Family is where life begins and love never ends.",
+        "author": "Unknown"
+      },
+      {
+        "id": 113,
+        "quote": "In family life, love is the oil that eases friction, the cement that binds closer together, and the music that brings harmony.",
+        "author": "Friedrich Nietzsche"
+      },
+      {
+        "id": 113,
+        "quote": "Family is not an important thing, it's everything.",
+        "author": "Michael J. Fox"
+      },
+      {
+        "id": 113,
+        "quote": "Rejoice with your family in the beautiful land of life.",
+        "author": "Albert Einstein"
+      },
+      {
+        "id": 113,
+        "quote": "Family is where life begins and love never ends.",
+        "author": "Unknown"
+      },
+      {
+        "id": 113,
+        "quote": "A happy family is but an earlier heaven.",
+        "author": "George Bernard Shaw"
+      },
+      {
+        "id": 113,
+        "quote": "Family is not an important thing. It's everything.",
+        "author": "Michael J. Fox"
+      },
+      {
+        "id": 113,
+        "quote": "The love of a family is life's greatest blessing.",
+        "author": "Unknown"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "category": "Dream",
+    "quotes": [
+      {
+        "id": 114,
+        "quote": "All our dreams can come true if we have the courage to pursue them.",
+        "author": "Walt Disney"
+      },
+      {
+        "id": 114,
+        "quote": "The future belongs to those who believe in the beauty of their dreams.",
+        "author": "Eleanor Roosevelt"
+      },
+      {
+        "id": 114,
+        "quote": "Dream big and dare to fail.",
+        "author": "Norman Vaughan"
+      },
+      {
+        "id": 114,
+        "quote": "Don't watch the clock; do what it does. Keep going.",
+        "author": "Sam Levenson"
+      },
+      {
+        "id": 114,
+        "quote": "The only thing that stands between you and your dream is the will to try and the belief that it is actually possible.",
+        "author": "Joel Brown"
+      },
+      {
+        "id": 114,
+        "quote": "The biggest adventure you can take is to live the life of your dreams.",
+        "author": "Oprah Winfrey"
+      },
+      {
+        "id": 114,
+        "quote": "Dreams don't work unless you do.",
+        "author": "John C. Maxwell"
+      },
+      {
+        "id": 114,
+        "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+        "author": "Franklin D. Roosevelt"
+      },
+      {
+        "id": 114,
+        "quote": "You are never too old to set another goal or to dream a new dream.",
+        "author": "C.S. Lewis"
+      },
+      {
+        "id": 114,
+        "quote": "Dreams are the touchstones of our characters.",
+        "author": "Henry David Thoreau"
+      }
+    ]
+  },
+  {
+  "id": 115,
+  "category": "Education",
+  "quotes": [
+    {
+      "id": 115,
+
+      "quote": "Education is the most powerful weapon which you can use to change the world.",
+      "author": "Nelson Mandela"
+    },
+    {
+      "id": 115,
+
+      "quote": "The only person who is educated is the one who has learned how to learn...and change.",
+      "author": "Carl Rogers"
+    },
+    {
+      "id": 115,
+
+      "quote": "Education is not the filling of a pail, but the lighting of a fire.",
+      "author": "William Butler Yeats"
+    },
+    {
+      "id": 115,
+
+      "quote": "An investment in knowledge pays the best interest.",
+      "author": "Benjamin Franklin"
+    },
+    {
+      "id": 115,
+
+      "quote": "The roots of education are bitter, but the fruit is sweet.",
+      "author": "Aristotle"
+    },
+    {
+      "id": 115,
+
+      "quote": "Education is the key to unlock the golden door of freedom.",
+      "author": "George Washington Carver"
+    },
+    {
+      "id": 115,
+
+      "quote": "Education is not preparation for life; education is life itself.",
+      "author": "John Dewey"
+    },
+    {
+      "id": 115,
+
+      "quote": "The only person who is educated is the one who has learned how to learn...and change.",
+      "author": "Carl Rogers"
+    },
+    {
+      "id": 115,
+
+      "quote": "Education is the most powerful weapon which you can use to change the world.",
+      "author": "Nelson Mandela"
+    },
+    {
+      "id": 115,
+
+      "quote": "The roots of education are bitter, but the fruit is sweet.",
+      "author": "Aristotle"
+    }
+  ]
+},
+  {
+    "id": 116,
+    "category": "Time",
+    "quotes": [
+      {
+        "id": 116,
+        "quote": "Time you enjoy wasting is not wasted time.",
+        "author": "Marthe Troly-Curtin"
+      },
+      {
+        "id": 116,
+        "quote": "The time is always right to do what is right.",
+        "author": "Martin Luther King Jr."
+      },
+      {
+        "id": 116,
+        "quote": "Lost time is never found again.",
+        "author": "Benjamin Franklin"
+      },
+      {
+        "id": 116,
+        "quote": "Time flies over us, but leaves its shadow behind.",
+        "author": "Nathaniel Hawthorne"
+      },
+      {
+        "id": 116,
+        "quote": "The future starts today, not tomorrow.",
+        "author": "Pope John Paul II"
+      },
+      {
+        "id": 116,
+        "quote": "Time you enjoy wasting is not wasted time.",
+        "author": "Marthe Troly-Curtin"
+      },
+      {
+        "id": 116,
+        "quote": "Time is free, but it's priceless. You can't own it, but you can use it. You can't keep it, but you can spend it. Once you've lost it, you can never get it back.",
+        "author": "Harvey Mackay"
+      },
+      {
+        "id": 116,
+        "quote": "The time is always right to do what is right.",
+        "author": "Martin Luther King Jr."
+      },
+      {
+        "id": 116,
+        "quote": "Lost time is never found again.",
+        "author": "Benjamin Franklin"
+      },
+      {
+        "id": 116,
+        "quote": "Time flies over us, but leaves its shadow behind.",
+        "author": "Nathaniel Hawthorne"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "category": "Leadership",
+    "quotes": [
+      {
+        "id": 117,
+        "quote": "The greatest leader is not necessarily the one who does the greatest things. He is the one that gets the people to do the greatest things.",
+        "author": "Ronald Reagan"
+      },
+      {
+        "id": 117,
+        "quote": "Leadership is not about being in charge. It is about taking care of those in your charge.",
+        "author": "Simon Sinek"
+      },
+      {
+        "id": 117,
+        "quote": "A leader is one who knows the way, goes the way, and shows the way.",
+        "author": "John C. Maxwell"
+      },
+      {
+        "id": 117,
+        "quote": "The function of leadership is to produce more leaders, not more followers.",
+        "author": "Ralph Nader"
+      },
+      {
+        "id": 117,
+        "quote": "A true leader has the confidence to stand alone, the courage to make tough decisions, and the compassion to listen to the needs of others.",
+        "author": "Douglas MacArthur"
+      },
+      {
+        "id": 117,
+        "quote": "Leadership is the capacity to translate vision into reality.",
+        "author": "Warren Bennis"
+      },
+      {
+        "id": 117,
+        "quote": "The greatest leader is not necessarily the one who does the greatest things. He is the one that gets the people to do the greatest things.",
+        "author": "Ronald Reagan"
+      },
+      {
+        "id": 117,
+        "quote": "Leadership is not about being in charge. It is about taking care of those in your charge.",
+        "author": "Simon Sinek"
+      },
+      {
+        "id": 117,
+        "quote": "A leader is one who knows the way, goes the way, and shows the way.",
+        "author": "John C. Maxwell"
+      },
+      {
+        "id": 117,
+        "quote": "The function of leadership is to produce more leaders, not more followers.",
+        "author": "Ralph Nader"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "category": "Change",
+    "quotes": [
+      {
+        "id": 118,
+        "quote": "Change is the only constant in life.",
+        "author": "Heraclitus"
+      },
+      {
+        "id": 118,
+        "quote": "Be the change that you wish to see in the world.",
+        "author": "Mahatma Gandhi"
+      },
+      {
+        "id": 118,
+        "quote": "Change your thoughts and you change your world.",
+        "author": "Norman Vincent Peale"
+      },
+      {
+        "id": 118,
+        "quote": "Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek.",
+        "author": "Barack Obama"
+      },
+      {
+        "id": 118,
+        "quote": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+        "author": "Alan Watts"
+      },
+      {
+        "id": 118,
+        "quote": "Change your life today. Don't gamble on the future, act now, without delay.",
+        "author": "Simone de Beauvoir"
+      },
+      {
+        "id": 118,
+        "quote": "Change is hard at first, messy in the middle and gorgeous at the end.",
+        "author": "Robin Sharma"
+      },
+      {
+        "id": 118,
+        "quote": "The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.",
+        "author": "Albert Einstein"
+      },
+      {
+        "id": 118,
+        "quote": "Change your thoughts and you change your world.",
+        "author": "Norman Vincent Peale"
+      },
+      {
+        "id": 118,
+        "quote": "Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek.",
+        "author": "Barack Obama"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "category": "Positive",
+    "quotes": [
+      {
+        "id": 119,
+        "quote": "Believe you can and you're halfway there.",
+        "author": "Theodore Roosevelt"
+      },
+      {
+        "id": 119,
+        "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+        "author": "Franklin D. Roosevelt"
+      },
+      {
+        "id": 119,
+        "quote": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+        "author": "Walt Whitman"
+      },
+      {
+        "id": 119,
+        "quote": "Positive thinking will let you do everything better than negative thinking will.",
+        "author": "Zig Ziglar"
+      },
+      {
+        "id": 119,
+        "quote": "In every day, there are 1,440 minutes. That means we have 1,440 daily opportunities to make a positive impact.",
+        "author": "Les Brown"
+      },
+      {
+        "id": 119,
+        "quote": "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.",
+        "author": "Helen Keller"
+      },
+      {
+        "id": 119,
+        "quote": "Positive anything is better than negative nothing.",
+        "author": "Elbert Hubbard"
+      },
+      {
+        "id": 119,
         "quote": "The best way to predict the future is to create it.",
         "author": "Peter Drucker"
       },
       {
-        "id": 8,
+        "id": 119,
+        "quote": "Believe you can and you're halfway there.",
+        "author": "Theodore Roosevelt"
+      },
+      {
+        "id": 119,
+        "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+        "author": "Franklin D. Roosevelt"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "category": "Encouraging",
+    "quotes": [
+      {
+        "id": 120,
+        "quote": "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+        "author": "Christian D. Larson"
+      },
+      {
+        "id": 120,
+        "quote": "You are never too old to set another goal or to dream a new dream.",
+        "author": "C.S. Lewis"
+      },
+      {
+        "id": 120,
+        "quote": "Don't watch the clock; do what it does. Keep going.",
+        "author": "Sam Levenson"
+      },
+      {
+        "id": 120,
+        "quote": "Believe you can and you're halfway there.",
+        "author": "Theodore Roosevelt"
+      },
+      {
+        "id": 120,
+        "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+        "author": "Franklin D. Roosevelt"
+      },
+      {
+        "id": 120,
+        "quote": "You are capable of amazing things.",
+        "author": "Unknown"
+      },
+      {
+        "id": 120,
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "author": "Winston Churchill"
+      },
+      {
+        "id": 120,
+        "quote": "You have within you right now, everything you need to deal with whatever the world can throw at you.",
+        "author": "Brian Tracy"
+      },
+      {
+        "id": 120,
+        "quote": "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+        "author": "Christian D. Larson"
+      },
+      {
+        "id": 120,
+        "quote": "You are never too old to set another goal or to dream a new dream.",
+        "author": "C.S. Lewis"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "category": "Determination",
+    "quotes": [
+      {
+        "id": 121,
+        "quote": "Your determination is your power to overcome any obstacle.",
+        "author": "Lailah Gifty Akita"
+      },
+      {
+        "id": 121,
+        "quote": "With determination, anything is possible.",
+        "author": "Unknown"
+      },
+      {
+        "id": 121,
+        "quote": "Determination is the wake-up call to the human will.",
+        "author": "Anthony Robbins"
+      },
+      {
+        "id": 121,
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "author": "Winston Churchill"
+      },
+      {
+        "id": 121,
+        "quote": "Determination is the key to success.",
+        "author": "John Carmack"
+      },
+      {
+        "id": 121,
+        "quote": "Determination becomes obsession and then it becomes all that matters.",
+        "author": "Jeremy Irvine"
+      },
+      {
+        "id": 121,
+        "quote": "Dreams don't work unless you do.",
+        "author": "John C. Maxwell"
+      },
+      {
+        "id": 121,
+        "quote": "It's not that I'm so smart, it's just that I stay with problems longer.",
+        "author": "Albert Einstein"
+      },
+      {
+        "id": 121,
+        "quote": "Your determination and resilience will carry you through the toughest of times.",
+        "author": "Lailah Gifty Akita"
+      },
+      {
+        "id": 121,
+        "quote": "With determination, anything is possible.",
+        "author": "Unknown"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "category": "Confidence",
+    "quotes": [
+      {
+        "id": 122,
+        "quote": "Confidence is not about being perfect. It is about being yourself.",
+        "author": "Unknown"
+      },
+      {
+        "id": 122,
+        "quote": "The most beautiful thing you can wear is confidence.",
+        "author": "Blake Lively"
+      },
+      {
+        "id": 122,
+        "quote": "Confidence comes not from always being right, but from not fearing to be wrong.",
+        "author": "Peter T. Mcintyre"
+      },
+      {
+        "id": 122,
+        "quote": "You gain strength, courage, and confidence by every experience in which you really stop to look fear in the face.",
+        "author": "Eleanor Roosevelt"
+      },
+      {
+        "id": 122,
+        "quote": "Confidence is silent. Insecurities are loud.",
+        "author": "Unknown"
+      },
+      {
+        "id": 122,
+        "quote": "Confidence is not they will like me. Confidence is Ill be fine if they dont.",
+        "author": "Unknown"
+      },
+      {
+        "id": 122,
+        "quote": "Confidence is the ability to feel beautiful without needing someone to tell you.",
+        "author": "Mandy Hale"
+      },
+      {
+        "id": 122,
+        "quote": "Don't let others put thoughts into your mind that takes away your self-confidence.",
+        "author": "Katori Hall"
+      },
+      {
+        "id": 122,
+        "quote": "Confidence is like a muscle. The more you use it, the stronger it gets.",
+        "author": "Unknown"
+      },
+      {
+        "id": 122,
+        "quote": "Confidence is not about being perfect. It is about being yourself.",
+        "author": "Unknown"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "category": "Self-Love",
+    "quotes": [
+      {
+        "id": 123,
+        "quote": "You yourself, as much as anybody in the entire universe, deserve your love and affection.",
+        "author": "Buddha"
+      },
+      {
+        "id": 123,
+        "quote": "Self-love is not selfish; you cannot truly love another until you know how to love yourself.",
+        "author": "Unknown"
+      },
+      {
+        "id": 123,
+        "quote": "You are worthy of love and happiness.",
+        "author": "Unknown"
+      },
+      {
+        "id": 123,
+        "quote": "Your value does not decrease based on someone's inability to see your worth.",
+        "author": "Unknown"
+      },
+      {
+        "id": 123,
+        "quote": "Love yourself first, and everything else falls into line.",
+        "author": "Lucille Ball"
+      },
+      {
+        "id": 123,
+        "quote": "You are enough just as you are.",
+        "author": "Unknown"
+      },
+      {
+        "id": 123,
+        "quote": "The more you love yourself, the less nonsense you'll tolerate.",
+        "author": "Unknown"
+      },
+      {
+        "id": 123,
+        "quote": "Be proud of who you are, and not ashamed of how someone else sees you.",
+        "author": "Unknown"
+      },
+      {
+        "id": 123,
+        "quote": "Self-love is the greatest medicine.",
+        "author": "Unknown"
+      },
+      {
+        "id": 123,
+        "quote": "You are beautiful, you are worthy, and you are enough.",
+        "author": "Unknown"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "category": "Growth",
+    "quotes": [
+      {
+        "id": 124,
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs"
+      },
+      {
+        "id": 124,
+        "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+        "author": "Albert Schweitzer"
+      },
+      {
+        "id": 124,
+        "quote": "Don't be afraid to give up the good to go for the great.",
+        "author": "John D. Rockefeller"
+      },
+      {
+        "id": 124,
+        "quote": "Growth is painful. Change is painful. But nothing is as painful as staying stuck somewhere you don't belong.",
+        "author": "Mandy Hale"
+      },
+      {
+        "id": 124,
+        "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+        "author": "Franklin D. Roosevelt"
+      },
+      {
+        "id": 124,
+        "quote": "The future belongs to those who believe in the beauty of their dreams.",
+        "author": "Eleanor Roosevelt"
+      },
+      {
+        "id": 124,
         "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
         "author": "Nelson Mandela"
       },
       {
-        "id": 9,
-        "quote": "The only person you are destined to become is the person you decide to be.",
-        "author": "Ralph Waldo Emerson"
+        "id": 124,
+        "quote": "The only way to grow is to step outside your comfort zone.",
+        "author": "Unknown"
       },
       {
-        "id": 10,
-        "quote": "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
-        "author": "Christian D. Larson"
+        "id": 124,
+        "quote": "Don't watch the clock; do what it does. Keep going.",
+        "author": "Sam Levenson"
+      },
+      {
+        "id": 124,
+        "quote": "The biggest adventure you can take is to live the life of your dreams.",
+        "author": "Oprah Winfrey"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "category": "Patience",
+    "quotes": [
+      {
+        "id": 125,
+        "quote": "Patience is not the ability to wait, but the ability to keep a good attitude while waiting.",
+        "author": "Joyce Meyer"
+      },
+      {
+        "id": 125,
+        "quote": "Have patience. All things are difficult before they become easy.",
+        "author": "Saadi"
+      },
+      {
+        "id": 125,
+        "quote": "Patience is not simply the ability to wait, it's how we behave while we're waiting.",
+        "author": "Joyce Meyer"
+      },
+      {
+        "id": 125,
+        "quote": "The key to everything is patience. You get the chicken by hatching the egg, not by smashing it.",
+        "author": "Arnold H. Glasow"
+      },
+      {
+        "id": 125,
+        "quote": "Patience is the calm acceptance that things can happen in a different order than the one you have in mind.",
+        "author": "David G. Allen"
+      },
+      {
+        "id": 125,
+        "quote": "Patience is bitter, but its fruit is sweet.",
+        "author": "Jean-Jacques Rousseau"
+      },
+      {
+        "id": 125,
+        "quote": "The strongest people are not those who show strength in front of us but those who win battles we know nothing about.",
+        "author": "Unknown"
+      },
+      {
+        "id": 125,
+        "quote": "Patience is not about waiting, but how we act when things don't go as we expect.",
+        "author": "Unknown"
+      },
+      {
+        "id": 125,
+        "quote": "The trees that are slow to grow bear the best fruit.",
+        "author": "Molière"
+      },
+      {
+        "id": 125,
+        "quote": "Adopt the pace of nature: her secret is patience.",
+        "author": "Ralph Waldo Emerson"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "category": "Heartbreak",
+    "quotes": [
+      {
+        "id": 126,
+        "quote": "The heart was made to be broken.",
+        "author": "Oscar Wilde"
+      },
+      {
+        "id": 126,
+        "quote": "It hurts to breathe because every breath I take proves I can't live without you.",
+        "author": "Unknown"
+      },
+      {
+        "id": 126,
+        "quote": "Sometimes, the person you want the most is the person you're best without.",
+        "author": "Unknown"
+      },
+      {
+        "id": 126,
+        "quote": "I wish I were a little girl again because skinned knees are easier to fix than a broken heart.",
+        "author": "Julia Roberts"
+      },
+      {
+        "id": 126,
+        "quote": "The emotion that can break your heart is sometimes the very one that heals it.",
+        "author": "Nicholas Sparks"
+      },
+      {
+        "id": 126,
+        "quote": "Hearts can break. Yes, hearts can break. Sometimes I think it would be better if we died when they did, but we don't.",
+        "author": "Stephen King"
+      },
+      {
+        "id": 126,
+        "quote": "A broken heart is just the growing pains necessary so that you can love more completely when the real thing comes along.",
+        "author": "J.S.B. Morse"
+      },
+      {
+        "id": 126,
+        "quote": "A broken heart is the worst. It's like having broken ribs. Nobody can see it, but it hurts every time you breathe.",
+        "author": "Unknown"
+      },
+      {
+        "id": 126,
+        "quote": "Sometimes, all you can do is lie in bed and hope to fall asleep before you fall apart.",
+        "author": "William C. Hannan"
+      },
+      {
+        "id": 126,
+        "quote": "The saddest thing about love is that not only that it cannot last forever, but that heartbreak is soon forgotten.",
+        "author": "William Faulkner"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "category": "Self-care",
+    "quotes": [
+      {
+        "id": 127,
+        "quote": "Self-care is not selfish. You cannot serve from an empty vessel.",
+        "author": "Eleanor Brownn"
+      },
+      {
+        "id": 127,
+        "quote": "Caring for myself is not self-indulgence, it is self-preservation, and that is an act of political warfare.",
+        "author": "Audre Lorde"
+      },
+      {
+        "id": 127,
+        "quote": "You are worthy of the love and care you give to others.",
+        "author": "Unknown"
+      },
+      {
+        "id": 127,
+        "quote": "Rest when you're weary. Refresh and renew yourself, your body, your mind, your spirit. Then get back to work.",
+        "author": "Ralph Marston"
+      },
+      {
+        "id": 127,
+        "quote": "Taking care of yourself is part of taking care of others.",
+        "author": "Unknown"
+      },
+      {
+        "id": 127,
+        "quote": "Nourishing yourself in a way that helps you blossom in the direction you want to go is attainable, and you are worth the effort.",
+        "author": "Deborah Day"
+      },
+      {
+        "id": 127,
+        "quote": "Self-care is how you take your power back.",
+        "author": "Lalah Delia"
+      },
+      {
+        "id": 127,
+        "quote": "You owe yourself the love that you so freely give to other people.",
+        "author": "Unknown"
+      },
+      {
+        "id": 127,
+        "quote": "Self-care is a divine responsibility.",
+        "author": "Unknown"
+      },
+      {
+        "id": 127,
+        "quote": "Taking care of myself doesn't mean 'me first,' it means 'me, too.'",
+        "author": "L.R. Knost"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "category": "Mindset",
+    "quotes": [
+      {
+        "id": 128,
+        "quote": "Your mindset determines your reality.",
+        "author": "Unknown"
+      },
+      {
+        "id": 128,
+        "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+        "author": "Franklin D. Roosevelt"
+      },
+      {
+        "id": 128,
+        "quote": "The mind is everything. What you think you become.",
+        "author": "Buddha"
+      },
+      {
+        "id": 128,
+        "quote": "Believe you can and you're halfway there.",
+        "author": "Theodore Roosevelt"
+      },
+      {
+        "id": 128,
+        "quote": "Your life does not get better by chance, it gets better by change.",
+        "author": "Jim Rohn"
+      },
+      {
+        "id": 128,
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "author": "Winston Churchill"
+      },
+      {
+        "id": 128,
+        "quote": "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.",
+        "author": "Winston Churchill"
+      },
+      {
+        "id": 128,
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs"
+      },
+      {
+        "id": 128,
+        "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+        "author": "Albert Schweitzer"
+      },
+      {
+        "id": 128,
+        "quote": "Whether you think you can or you think you can't, you're right.",
+        "author": "Henry Ford"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "category": "Creativity",
+    "quotes": [
+      {
+        "id": 129,
+        "quote": "Creativity is intelligence having fun.",
+        "author": "Albert Einstein"
+      },
+      {
+        "id": 129,
+        "quote": "You can't use up creativity. The more you use, the more you have.",
+        "author": "Maya Angelou"
+      },
+      {
+        "id": 129,
+        "quote": "Creativity takes courage.",
+        "author": "Henri Matisse"
+      },
+      {
+        "id": 129,
+        "quote": "Creativity is contagious. Pass it on.",
+        "author": "Albert Einstein"
+      },
+      {
+        "id": 129,
+        "quote": "Every child is an artist. The problem is how to remain an artist once we grow up.",
+        "author": "Pablo Picasso"
+      },
+      {
+        "id": 129,
+        "quote": "The creative adult is the child who survived.",
+        "author": "Ursula K. Le Guin"
+      },
+      {
+        "id": 129,
+        "quote": "Don't think. Thinking is the enemy of creativity. It's self-conscious, and anything self-conscious is lousy. You can't try to do things. You simply must do things.",
+        "author": "Ray Bradbury"
+      },
+      {
+        "id": 129,
+        "quote": "Creativity is the power to connect the seemingly unconnected.",
+        "author": "William Plomer"
+      },
+      {
+        "id": 129,
+        "quote": "To be creative means to be in love with life. You can be creative only if you love life enough that you want to enhance its beauty, you want to bring a little more music to it, a little more poetry to it, a little more dance to it.",
+        "author": "Osho"
+      },
+      {
+        "id": 129,
+        "quote": "Creativity is the greatest rebellion in existence.",
+        "author": "Osho"
       }
     ]
   }
