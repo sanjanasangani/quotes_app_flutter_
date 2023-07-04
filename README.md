@@ -10,7 +10,7 @@ A new Flutter project.
 <img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/f96c6635-c46d-4d2f-93df-695596220526" width="220px">
 <img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/6cfd49b4-506e-4da8-86e9-bb688f2298b5" width="220px">
 
-<img align="left" srchttps://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/9fbc4166-d1f5-41b2-9d07-a90f7c6047e2" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/9fbc4166-d1f5-41b2-9d07-a90f7c6047e2" width="220px">
 <img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/013715d3-9e95-4135-b032-117d653d0167" width="220px">
 <img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/84530ca8-b6b7-426d-b1c5-9c0320f4b81e" width="220px">
 
