@@ -3,7 +3,7 @@
 A new Flutter project.
 
 <img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/6f69a384-5bec-443f-bd08-8a3c412af056" width="220px">
-<img align="left" src="(https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/80701b27-517e-4ed7-bb90-e4a7f36c68c6" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/80701b27-517e-4ed7-bb90-e4a7f36c68c6" width="220px">
 <img src="!https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/9c2c03ad-0a5a-46ab-b42c-73503f339ed4" width="220px">
 
 <img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/7f2c7588-9a2d-4a31-8f2f-0c4471e16b14" width="220px">
