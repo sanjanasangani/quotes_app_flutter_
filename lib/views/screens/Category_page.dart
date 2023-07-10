@@ -8,13 +8,6 @@ import '../../modals/categorymodel.dart';
 import '../../utils/attributes.dart';
 import '../../utils/dbhelper.dart';
 
-
-
-
-
-
-
-
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 

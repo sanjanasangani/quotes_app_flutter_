@@ -196,8 +196,8 @@ class _second_pageState extends State<second_page> {
                                     },
                                     child: Row(
                                       children: [
-                                        Icon(
-                                          CupertinoIcons.heart,
+                                        Icon((isFavorite)
+                                          ?CupertinoIcons.heart_solid:CupertinoIcons.heart,
                                           color: isFavorite
                                               ? Colors.red
                                               : Colors.black,

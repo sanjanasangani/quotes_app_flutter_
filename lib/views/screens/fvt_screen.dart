@@ -64,8 +64,7 @@ class _FvtScreenState extends State<FvtScreen> {
                         "No favourite quotes!",
                         style: GoogleFonts.cabin(
                           textStyle: TextStyle(
-                            fontSize: Get.height * 0.038,
-                            fontWeight: FontWeight.bold,
+                            fontSize: Get.height * 0.03,
                           ),
                         ),
                       ),
@@ -78,28 +77,6 @@ class _FvtScreenState extends State<FvtScreen> {
                 padding: const EdgeInsets.all(12),
                 child: ListView.separated(
                   itemCount: data.length,
-                  // itemBuilder: (context, i) => ListTile(
-                  //   title: Text(
-                  //     data[i].quotes,
-                  //     style: GoogleFonts.poppins(
-                  //       textStyle: const TextStyle(
-                  //         fontWeight: FontWeight.w500,
-                  //       ),
-                  //     ),
-                  //   ),
-                  //   subtitle: Padding(
-                  //     padding: const EdgeInsets.only(top: 8.0),
-                  //     child: Text(
-                  //       data[i].author,
-                  //       style: GoogleFonts.poppins(
-                  //         textStyle: const TextStyle(
-                  //           color: Colors.grey,
-                  //           fontWeight: FontWeight.w400,
-                  //         ),
-                  //       ),
-                  //     ),
-                  //   ),
-                  // ),
                   itemBuilder: (context, index) {
                     return Card(
                       child: Padding(
@@ -107,62 +84,68 @@ class _FvtScreenState extends State<FvtScreen> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
-
                             Text(data[index].quotes,
-                              style: GoogleFonts.poppins(
-                                textStyle: const TextStyle(
-                                  fontSize: 20,
-                                  fontWeight: FontWeight.w500,),
-                              )
-                            ),
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                                )),
                             SizedBox(
                               height: Get.height * 0.01,
                             ),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                      data[index].author,
-                                      style: GoogleFonts.poppins(
-                                        textStyle: const TextStyle(
-                                          color: Colors.grey,
-                                          fontSize: 18,
-                                          fontWeight: FontWeight.w400,
-                                        ),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text(
+                                    data[index].author,
+                                    style: GoogleFonts.poppins(
+                                      textStyle: const TextStyle(
+                                        color: Colors.grey,
+                                        fontSize: 18,
+                                        fontWeight: FontWeight.w400,
                                       ),
                                     ),
-                              IconButton(
-onPressed: () {
-setState(() {
-favoriteController.toggleFavorite(data[index].quotes);
-DBHelper.dbHelper.updateSecondQuote(
-favorite:
-favoriteController.isFavorite(data[index].quotes)
-? 1
-    : 0,
-quote: data[index].quotes,
-);
-DBHelper.dbHelper
-    .deleteFavorite(quote: data[index].quotes);
-getQuotesController.getQuotesList(
-allQuotes: DBHelper.dbHelper
-    .fatchAllQuotes(id: data[index].id!));
-});
-},
-icon: Obx(
-() => Icon(
-CupertinoIcons.heart,
-color: favoriteController.isFavorite(data[index].quotes)
-? Colors.black
-    : Colors.red,
-),
-),
-),
-                            ],
-                          ),
-                        ),
+                                  ),
+                                  IconButton(
+                                    onPressed: () {
+                                      setState(() {
+                                        favoriteController
+                                            .toggleFavorite(data[index].quotes);
+                                        DBHelper.dbHelper.updateSecondQuote(
+                                          favorite:
+                                              favoriteController.isFavorite(
+                                                      data[index].quotes)
+                                                  ? 1
+                                                  : 0,
+                                          quote: data[index].quotes,
+                                        );
+                                        DBHelper.dbHelper.deleteFavorite(
+                                            quote: data[index].quotes);
+                                        getQuotesController.getQuotesList(
+                                            allQuotes: DBHelper.dbHelper
+                                                .fatchAllQuotes(
+                                                    id: data[index].id!));
+                                      });
+                                    },
+                                    icon: Obx(
+                                      () => Icon((favoriteController
+                                          .isFavorite(data[index].quotes))
+                                        ?CupertinoIcons.heart
+                                      :CupertinoIcons.heart_solid,
+                                        color: favoriteController
+                                                .isFavorite(data[index].quotes)
+                                            ? Colors.black
+                                            : Colors.red,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
                           ],
                         ),
                       ),
