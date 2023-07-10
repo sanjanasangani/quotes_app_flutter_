@@ -18,7 +18,7 @@ class LocalJsonController extends GetxController {
     List decodedList = jsonDecode(localJsonModel.jsonData);
 
     localJsonModel.Quotes =
-        decodedList.map((e) => QuoteModel.fromJson(e)).toList();
+        decodedList.map((e) => QuotesModel.fromJson(e)).toList();
 
     update();
   }

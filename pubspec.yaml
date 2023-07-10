@@ -40,9 +40,14 @@ dependencies:
   get:
   path:
   google_fonts: ^4.0.4
+  image_gallery_saver:
   get_storage:
   path_provider:
   flutter_onboarding_slider: ^1.0.9
+  image: ^4.0.17
+  flutter_wallpaper_manager: ^0.0.4
+  screenshot:
+
 
 dev_dependencies:
   flutter_test:

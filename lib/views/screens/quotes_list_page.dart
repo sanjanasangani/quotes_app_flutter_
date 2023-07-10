@@ -1,21 +1,25 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:share_plus/share_plus.dart';
+import '../../contoller/favourite_controller.dart';
+import '../../contoller/get_quote_controller.dart';
 import '../../contoller/qoutestitle_controller.dart';
 import '../../modals/quote_database.dart';
 import '../../utils/attributes.dart';
+import '../../utils/dbhelper.dart';
 
-class quotespage extends StatefulWidget {
-  const quotespage({super.key});
+class second_page extends StatefulWidget {
+  const second_page({super.key});
 
   @override
-  State<quotespage> createState() => _quotespageState();
+  State<second_page> createState() => _second_pageState();
 }
 
-class _quotespageState extends State<quotespage> {
+class _second_pageState extends State<second_page> {
   List<String> imageAssets = [
     "assets/bgimages/1.jpeg",
     "assets/bgimages/2.jpeg",
@@ -30,6 +34,15 @@ class _quotespageState extends State<quotespage> {
   ];
 
   TitleController titleController = Get.find<TitleController>();
+  final FavoriteController favoriteController = Get.put(FavoriteController());
+  GetQuotesController getQuotesController = Get.put(GetQuotesController());
+
+  @override
+  void initState() {
+    super.initState();
+    getQuotesController.getQuotesList(
+        allQuotes: DBHelper.dbHelper.fatchAllQuotes(id: 0));
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +54,7 @@ class _quotespageState extends State<quotespage> {
           },
           icon: const Icon(Icons.arrow_back),
         ),
-        title: Obx(() => Text(titleController.categoryName.value,style: TextStyle(fontWeight: FontWeight.bold),)),
+        title: Obx(() => Text(titleController.categoryName.value)),
         centerTitle: true,
         backgroundColor: Colors.red,
       ),
@@ -62,219 +75,237 @@ class _quotespageState extends State<quotespage> {
               return ListView.builder(
                 itemCount: data.length,
                 itemBuilder: (context, index) {
+                  final quote = data[index].quotes;
+                  final isFavorite = favoriteController.isFavorite(quote);
                   return Padding(
                     padding: const EdgeInsets.all(16),
-                    child: SingleChildScrollView(
-                      child: Container(
-                        height: Get.height * 0.6,
-                        width: Get.width,
-                        decoration: BoxDecoration(
-                          color: Colors.grey,
-                          borderRadius: BorderRadius.circular(20),
-                          image: DecorationImage(
-                            image: AssetImage(
-                                imageAssets[index % imageAssets.length]),
-                            fit: BoxFit.cover,
-                          ),
+                    child: Container(
+                      height: Get.height * 0.6,
+                      width: Get.width,
+                      decoration: BoxDecoration(
+                        color: Colors.grey,
+                        borderRadius: BorderRadius.circular(20),
+                        image: DecorationImage(
+                          image: AssetImage(
+                              imageAssets[index % imageAssets.length]),
+                          fit: BoxFit.cover,
                         ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.only(right: 12, top: 12),
-                              child: Row(
-                                mainAxisAlignment: MainAxisAlignment.end,
-                                children: [
-                                  Container(
-                                    height: 40,
-                                    width: 40,
-                                    decoration: const BoxDecoration(
-                                      shape: BoxShape.circle,
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Expanded(
+                            flex: 6,
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                const Padding(
+                                  padding: EdgeInsets.only(left: 16, right: 16),
+                                  child: Row(
+                                      mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text(
+                                          "“",
+                                          style: TextStyle(
+                                              color: Colors.white,
+                                              fontSize: 80),
+                                        ),
+                                      ]),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.only(
+                                    right: 50,
+                                    left: 50,
+                                  ),
+                                  child: Text(
+                                    data[index].quotes,
+                                    style: const TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 20,
                                       color: Colors.white,
                                     ),
-                                    child: IconButton(
-                                      onPressed: () {
-                                        Get.toNamed(
-                                          "/edit",
-                                          arguments: data[index].quotes,
-                                        );
-                                      },
-                                      icon: const Icon(
-                                        Icons.edit,
-                                      ),
-                                      iconSize: 25,
-                                      color: Colors.black,
-                                    ),
                                   ),
-                                ],
-                              ),
+                                ),
+                                const Padding(
+                                  padding: EdgeInsets.only(left: 16, right: 16),
+                                  child: Row(
+                                      mainAxisAlignment: MainAxisAlignment.end,
+                                      children: [
+                                        Text(
+                                          "”",
+                                          style: TextStyle(
+                                              color: Colors.white,
+                                              fontSize: 80),
+                                        )
+                                      ]),
+                                ),
+                                SizedBox(
+                                  height: Get.height * 0.02,
+                                ),
+                              ],
                             ),
-                            Expanded(
-                              flex: 6,
-                              child: Column(
+                          ),
+                          Expanded(
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                border: Border.all(color: Colors.black),
+                                borderRadius: const BorderRadius.only(
+                                  bottomLeft: Radius.circular(20),
+                                  bottomRight: Radius.circular(20),
+                                ),
+                              ),
+                              child: Row(
+                                mainAxisAlignment:
+                                MainAxisAlignment.spaceEvenly,
                                 children: [
-                                  Padding(
-                                    padding: EdgeInsets.only(left: 16, right: 16),
+                                  GestureDetector(
+                                    onTap: () {
+                                      setState(() {
+                                        if (data[index].favorite == 0) {
+                                          DBHelper.dbHelper.updateQuote(
+                                              favorite: 1,
+                                              quote: data[index].quotes);
+                                          QuotesDatabaseModel
+                                          quotesDataBaseModel =
+                                          QuotesDatabaseModel(
+                                            id: data[index].id,
+                                            quotes: data[index].quotes,
+                                            author: data[index].author,
+                                            favorite: data[index].favorite,
+                                          );
+                                          DBHelper.dbHelper.insertFavorite(
+                                              data: quotesDataBaseModel);
+                                        } else {
+                                          DBHelper.dbHelper.updateSecondQuote(
+                                              favorite: 0,
+                                              quote: data[index].quotes);
+                                          DBHelper.dbHelper.deleteFavorite(
+                                              quote: data[index].quotes);
+                                        }
+                                        getQuotesController.getQuotesList(
+                                          allQuotes: DBHelper.dbHelper
+                                              .fatchAllQuotes(
+                                              id: data[index].id!),
+                                        );
+                                        print(data[index].id);
+                                        favoriteController
+                                            .toggleFavorite(quote);
+                                      });
+                                    },
                                     child: Row(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.spaceBetween,
-                                        children: [
-                                          Text(
-                                            "“",
-                                            style: TextStyle(
-                                                color: Colors.white,
-                                                fontSize: 80),
+                                      children: [
+                                        Icon(
+                                          CupertinoIcons.heart,
+                                          color: isFavorite
+                                              ? Colors.red
+                                              : Colors.black,
+                                        ),
+                                        SizedBox(
+                                          width: Get.width * 0.01,
+                                        ),
+                                        Text(
+                                          "Like",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: isFavorite
+                                                ? Colors.red
+                                                : Colors.black,
                                           ),
-                                        ]),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.only(
-                                      right: 50,
-                                      left: 50,
-                                    ),
-                                    child: Text(
-                                      data[index].quotes,
-                                      style: const TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 20,
-                                        color: Colors.white,
-                                      ),
+                                        ),
+                                      ],
                                     ),
                                   ),
-                                  Padding(
-                                    padding: EdgeInsets.only(left: 16, right: 16),
+                                  GestureDetector(
+                                    onTap: () {
+                                      Get.toNamed(
+                                        "/edit",
+                                        arguments: data[index].quotes,
+                                      );
+                                    },
                                     child: Row(
-                                        mainAxisAlignment: MainAxisAlignment.end,
-                                        children: [
-                                          Text(
-                                            "”",
-                                            style: TextStyle(
-                                                color: Colors.white,
-                                                fontSize: 80),
-                                          )
-                                        ]),
+                                      children: [
+                                        const Icon(
+                                          Icons.edit,
+                                          color: Colors.black,
+                                        ),
+                                        SizedBox(
+                                          width: Get.width * 0.01,
+                                        ),
+                                        const Text(
+                                          "Edit",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.black,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                  GestureDetector(
+                                    onTap: () {
+                                      Clipboard.setData(
+                                        ClipboardData(
+                                          text: data[index].quotes,
+                                        ),
+                                      ).then(
+                                            (value) => Get.snackbar(
+                                          "Quotes",
+                                          "Copy  Clipboard",
+                                          snackPosition: SnackPosition.BOTTOM,
+                                          backgroundColor:
+                                          Colors.white.withOpacity(0.6),
+                                          padding: const EdgeInsets.all(
+                                            10,
+                                          ),
+                                        ),
+                                      );
+                                    },
+                                    child: Row(
+                                      children: [
+                                        const Icon(Icons.copy,color: Colors.black,),
+                                        SizedBox(
+                                          width: Get.width * 0.01,
+
+                                        ),
+                                        const Text(
+                                          "Copy",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.black,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                  GestureDetector(
+                                    onTap: () {
+                                      Share.share(
+                                        data[index].quotes,
+                                      );
+                                    },
+                                    child: Row(
+                                      children: [
+                                        const Icon(Icons.share,color: Colors.black,),
+                                        SizedBox(
+                                          width: Get.width * 0.01,
+                                        ),
+                                        const Text(
+                                          "Share",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.black,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
                                   ),
                                 ],
                               ),
                             ),
-                            Expanded(
-                              child: Container(
-                                decoration: const BoxDecoration(
-                                  color: Colors.white,
-                                  borderRadius: BorderRadius.only(
-                                    bottomLeft: Radius.circular(20),
-                                    bottomRight: Radius.circular(20),
-                                  ),
-                                ),
-                                child: Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceEvenly,
-                                  children: [
-                                    GestureDetector(
-                                      onTap: () {},
-                                      child: Container(
-                                        decoration: BoxDecoration(
-                                          borderRadius: BorderRadius.circular(8),
-                                        ),
-                                        child: Row(
-                                          children: [
-                                            const Icon(CupertinoIcons.heart),
-                                            SizedBox(
-                                              width: Get.width * 0.01,
-                                            ),
-                                            const Text(
-                                              "Like",
-                                              style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ),
-                                    GestureDetector(
-                                      onTap: () {},
-                                      child: Container(
-                                        decoration: BoxDecoration(
-                                          borderRadius: BorderRadius.circular(8),
-                                        ),
-                                        child: Row(
-                                          children: [
-                                            const Icon(Icons.download),
-                                            SizedBox(
-                                              width: Get.width * 0.01,
-                                            ),
-                                            const Text(
-                                              "Save",
-                                              style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ),
-                                    GestureDetector(
-                                      onTap: () {
-                                        Clipboard.setData(
-                                          ClipboardData(
-                                            text: data[index].quotes,
-                                          ),
-                                        ).then(
-                                          (value) => Get.snackbar(
-                                            "Quotes",
-                                            "Copy  Clipboard",
-                                            snackPosition: SnackPosition.BOTTOM,
-                                            backgroundColor:
-                                                Colors.white.withOpacity(0.6),
-                                            padding: const EdgeInsets.all(
-                                              10,
-                                            ),
-                                          ),
-                                        );
-                                      },
-                                      child: Row(
-                                        children: [
-                                          const Icon(Icons.copy),
-                                          SizedBox(
-                                            width: Get.width * 0.01,
-                                          ),
-                                          const Text(
-                                            "Copy",
-                                            style: TextStyle(
-                                              fontWeight: FontWeight.bold,
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                    GestureDetector(
-                                      onTap: () {
-                                        Share.share(
-                                          data[index].quotes,
-                                        );
-                                      },
-                                      child: Row(
-                                        children: [
-                                          const Icon(Icons.share),
-                                          SizedBox(
-                                            width: Get.width * 0.01,
-                                          ),
-                                          const Text(
-                                            "Share",
-                                            style: TextStyle(
-                                              fontWeight: FontWeight.bold,
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
+                          ),
+                        ],
                       ),
                     ),
                   );

@@ -1,24 +1,31 @@
 import 'dart:async';
-import 'dart:typed_data';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../contoller/qoute_controller.dart';
 import '../../contoller/qoutestitle_controller.dart';
+import '../../contoller/theme_controller.dart';
 import '../../modals/categorymodel.dart';
 import '../../utils/attributes.dart';
 import '../../utils/dbhelper.dart';
 
-class categorypage extends StatefulWidget {
-  const categorypage({super.key});
+
+
+
+
+
+
+
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
 
   @override
-  State<categorypage> createState() => _categorypageState();
+  State<HomePage> createState() => _HomePageState();
 }
 
-class _categorypageState extends State<categorypage> {
+class _HomePageState extends State<HomePage> {
   Future<List<CategoryDatabaseModel>>? getalldata;
   LocalJsonController localjsoncontroller = Get.put(LocalJsonController());
+  ThemeController _themeController = Get.put(ThemeController());
 
   final List<Color> ColorList = [
     Colors.cyan,
@@ -42,35 +49,35 @@ class _categorypageState extends State<categorypage> {
   ];
 
   List<String> imagePaths = [
-        "assets/images/Motivation.png",
-        "assets/images/Inspirational.png",
-        "assets/images/Love.png",
-        "assets/images/Friendship.png",
-        "assets/images/Success.png",
-        "assets/images/Happiness.png",
-        "assets/images/Wisdom.png",
-        "assets/images/Funny.png",
-        "assets/images/Life.png",
-        "assets/images/Strength.png",
-        "assets/images/Hope.png",
-        "assets/images/Faith.png",
-        "assets/images/Family.png",
-        "assets/images/Dream.png",
-        "assets/images/Education.png",
-        "assets/images/Time.png",
-        "assets/images/Leadership.png",
-        "assets/images/Change.png",
-        "assets/images/Positive.png",
-        "assets/images/Encouraging.png",
-        "assets/images/Determination.png",
-        "assets/images/Confidence.png",
-        "assets/images/Self-Love.png",
-        "assets/images/Growth.png",
-        "assets/images/Patience.png",
-        "assets/images/Heartbreak.png",
-        "assets/images/Self-care.png",
-        "assets/images/Mindset.png",
-        "assets/images/Creativity.png",
+    "assets/images/Motivation.png",
+    "assets/images/Inspirational.png",
+    "assets/images/Love.png",
+    "assets/images/Friendship.png",
+    "assets/images/Success.png",
+    "assets/images/Happiness.png",
+    "assets/images/Wisdom.png",
+    "assets/images/Funny.png",
+    "assets/images/Life.png",
+    "assets/images/Strength.png",
+    "assets/images/Hope.png",
+    "assets/images/Faith.png",
+    "assets/images/Family.png",
+    "assets/images/Dream.png",
+    "assets/images/Education.png",
+    "assets/images/Time.png",
+    "assets/images/Leadership.png",
+    "assets/images/Change.png",
+    "assets/images/Positive.png",
+    "assets/images/Encouraging.png",
+    "assets/images/Determination.png",
+    "assets/images/Confidence.png",
+    "assets/images/Self-Love.png",
+    "assets/images/Growth.png",
+    "assets/images/Patience.png",
+    "assets/images/Heartbreak.png",
+    "assets/images/Self-care.png",
+    "assets/images/Mindset.png",
+    "assets/images/Creativity.png",
   ];
 
   @override
@@ -81,7 +88,6 @@ class _categorypageState extends State<categorypage> {
 
   TitleController titleController = Get.put(TitleController());
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -90,7 +96,7 @@ class _categorypageState extends State<categorypage> {
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
-             UserAccountsDrawerHeader(
+            UserAccountsDrawerHeader(
               decoration: const BoxDecoration(
                 color: Colors.red,
               ),
@@ -118,15 +124,13 @@ class _categorypageState extends State<categorypage> {
             ListTile(
               leading: const Icon(Icons.person),
               title: const Text('Profile'),
-              onTap: () {
-                // Handle drawer item tap for Profile
-              },
+              onTap: () {},
             ),
             ListTile(
               leading: const Icon(Icons.logout),
               title: const Text('Logout'),
               onTap: () {
-                // Handle drawer item tap for Logout
+                Get.toNamed("/");
               },
             ),
           ],
@@ -143,20 +147,21 @@ class _categorypageState extends State<categorypage> {
             }
           },
         ),
-        title: const Text("Premium Quotes",style: TextStyle()),
+        title: const Text("Premium Quotes", style: TextStyle()),
         backgroundColor: Colors.redAccent,
         actions: [
           IconButton(
             onPressed: () {
-             (Get.isDarkMode)
-                 ?Get.changeTheme(ThemeData.light(useMaterial3: true))
-                 :Get.changeTheme(ThemeData.dark(useMaterial3: true));
+              // _themeController.toggleTheme();
+              (Get.isDarkMode)
+                  ? Get.changeTheme(ThemeData.light(useMaterial3: true))
+                  : Get.changeTheme(ThemeData.dark(useMaterial3: true));
             },
             icon: const Icon(Icons.light),
           ),
           IconButton(
             onPressed: () {
-
+              Get.toNamed("/FvtScreen");
             },
             icon: const Icon(Icons.favorite),
           ),
@@ -181,8 +186,7 @@ class _categorypageState extends State<categorypage> {
                 padding: const EdgeInsets.all(14),
                 child: GridView.builder(
                   itemCount: data.length,
-                  gridDelegate:
-                      const SliverGridDelegateWithFixedCrossAxisCount(
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 3,
                     mainAxisSpacing: 40,
                     crossAxisSpacing: 10,
@@ -194,7 +198,7 @@ class _categorypageState extends State<categorypage> {
                             .setCategoryName(data[index].category_name);
                         getAllQuotes = DBHelper.dbHelper
                             .fatchAllQuotes(id: data[index].id);
-                        Get.toNamed("/quotespage");
+                        Get.toNamed("/second");
                       },
                       child: Column(
                         children: [
