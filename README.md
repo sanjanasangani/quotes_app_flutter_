@@ -1,3 +1,5 @@
+# quotes_app_flutter_
+
 A new Flutter project.
 
 <img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/8d581487-57e3-4e28-9a96-7442828bdd2b" width="220px">
