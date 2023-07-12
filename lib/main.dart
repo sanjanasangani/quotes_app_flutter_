@@ -1,3 +1,4 @@
+import 'package:dbminer_quotes_app/views/screens/Splashscreen.dart';
 import 'package:dbminer_quotes_app/views/screens/fvt_screen.dart';
 import 'package:dbminer_quotes_app/views/screens/quotes_details_page.dart';
 import 'package:dbminer_quotes_app/views/screens/intro_screen.dart';
@@ -18,9 +19,10 @@ void main()async{
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
       themeMode: _themeController.themeMode.value,
-      initialRoute: "/Homepage",
+      initialRoute: "/",
       getPages: [
-        GetPage(name: "/",page:() => const IntroPage(),),
+        GetPage(name: "/", page: () => SplashScreen(),),
+        GetPage(name: "/IntroPage",page:() => const IntroPage(),),
         GetPage(name: "/Homepage",page:() => const HomePage(),),
         GetPage(name: "/second",page:() => const second_page(),),
         GetPage(name: "/edit",page:() => const Edit_page(),),
