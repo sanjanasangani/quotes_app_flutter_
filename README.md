@@ -1,22 +1,44 @@
-# dbminer_quotes_app
+# quotes_app_flutter_
 
 A new Flutter project.
 
-<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/6f69a384-5bec-443f-bd08-8a3c412af056" width="220px">
-<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/80701b27-517e-4ed7-bb90-e4a7f36c68c6" width="220px">
-<img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/9c2c03ad-0a5a-46ab-b42c-73503f339ed4" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/35d0c513-6ac7-4e51-b5c8-fff31c111fcb" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/e8e0e3fd-2d60-4860-a946-020b7a529257" width="220px">
+<img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/a66e6906-c79e-42ac-bfa6-d8da991eadb1" width="220px">
 
-<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/7f2c7588-9a2d-4a31-8f2f-0c4471e16b14" width="220px">
-<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/f96c6635-c46d-4d2f-93df-695596220526" width="220px">
-<img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/6cfd49b4-506e-4da8-86e9-bb688f2298b5" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/7dcd5f7b-82ba-4a7a-ab07-62262803b7f3" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/8d581487-57e3-4e28-9a96-7442828bdd2b" width="220px">
+<img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/5e12d2f4-eb40-47f0-86e0-86071b36dc2b" width="220px">
 
-<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/9fbc4166-d1f5-41b2-9d07-a90f7c6047e2" width="220px">
-<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/013715d3-9e95-4135-b032-117d653d0167" width="220px">
-<img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/84530ca8-b6b7-426d-b1c5-9c0320f4b81e" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/2cbb4a09-fff1-4a9b-9e28-a2decd02143d" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/c48eb3e9-8a81-4a53-a6f1-4a8585b9ffcc" width="220px">
+<img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/3ec32773-45fe-421c-af5b-bf401b6b993b" width="220px">
 
-<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/da0d2487-9ff2-475f-abc6-526db5bbcf8d" width="220px">
-<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/add8d71a-1dd0-4a11-bb6a-d6d62639c993" width="220px">
-<img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/f6c2c397-af71-4ef1-b7ed-f3be6dc4c80e" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/c942de2f-9c13-4472-9192-9ee518f3cb48" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/1112ee70-7d82-4507-a79b-591c756b4fd1" width="220px">
+<img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/d652f102-4aaa-45bd-9944-37342bbb5814" width="220px">
+
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/d0e72ecb-6654-4a42-a4f1-76237ea1e814" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/679373cf-a54e-454f-82cf-1b4afe4fb2eb" width="220px">
+<img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/46b7ec94-d6df-438a-bc17-536c79583854" width="220px">
+
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/4b23d18b-1b6e-45a0-ba3d-65ca5556004d" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/c8166ff7-8c26-4167-8d1e-61197d058b65" width="220px">
+<img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/4187e858-c1f2-45af-919d-cd22aa639c13" width="220px">
+
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/10aeb455-6029-4878-9050-c97d185b0e5b" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/fb5069bf-8482-4e43-b254-e822e5904a20" width="220px">
+<img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/33251ea2-ca2f-47e1-8459-6b8a941f3c0b" width="220px">
+
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/84acb316-2cf2-4c8d-9b8b-89267ca46322" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/ad69231f-31ef-408e-8ab7-7e7fc356f7b9" width="220px">
+<img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/06d1b14d-50c0-4383-8f88-7e29a1a46353" width="220px">
+
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/1af1383b-46ac-4cbc-872b-124388d3c4cb" width="220px">
+<img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/cab12a66-42d5-44df-a219-741302733076" width="220px">
+
+
+
 
 ## Getting Started
 
