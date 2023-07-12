@@ -27,7 +27,7 @@ A new Flutter project.
 <img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/33251ea2-ca2f-47e1-8459-6b8a941f3c0b" width="220px">
 
 <img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/84acb316-2cf2-4c8d-9b8b-89267ca46322" width="220px">
-<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/d67bbe8c-229e-4b02-8743-0e7225ca38d9" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/ad69231f-31ef-408e-8ab7-7e7fc356f7b9" width="220px">
 <img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/06d1b14d-50c0-4383-8f88-7e29a1a46353" width="220px">
 
 <img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/1af1383b-46ac-4cbc-872b-124388d3c4cb" width="220px">
