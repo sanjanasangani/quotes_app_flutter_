@@ -1,5 +1,3 @@
-![Screenshot_20230712_092752](https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/41e796ed-5335-408f-a2ab-6c39cb76a008)# dbminer_quotes_app
-
 A new Flutter project.
 
 <img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/8d581487-57e3-4e28-9a96-7442828bdd2b" width="220px">
