@@ -2,6 +2,11 @@
 
 A new Flutter project.
 
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/35d0c513-6ac7-4e51-b5c8-fff31c111fcb" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/e8e0e3fd-2d60-4860-a946-020b7a529257" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/a66e6906-c79e-42ac-bfa6-d8da991eadb1" width="220px">
+<img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/7dcd5f7b-82ba-4a7a-ab07-62262803b7f3" width="220px">
+
 <img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/8d581487-57e3-4e28-9a96-7442828bdd2b" width="220px">
 <img align="left" src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/5e12d2f4-eb40-47f0-86e0-86071b36dc2b" width="220px">
 <img src="https://github.com/sanjanasangani/quotes_app_flutter_/assets/131368083/2cbb4a09-fff1-4a9b-9e28-a2decd02143d" width="220px">
